@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-:coffee: Bewing amazing things.
+☕ Bewing amazing things.
