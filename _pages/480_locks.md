@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "Database Locks"
+permalink: /database_locks/
+author_profile: true
+---
+
 ```python
 """
 Module imitating sqlite3. Feel free to delete/modify
