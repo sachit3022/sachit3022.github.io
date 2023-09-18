@@ -6,7 +6,10 @@ author_profile: true
 ---
 
 # Module imitating sqlite3. 
+
+
 Code Template by James Mariani, Lock functionality implemented by Sachit.
+
 
 
 ```python
