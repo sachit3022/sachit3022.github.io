@@ -5,12 +5,11 @@ permalink: /database_locks/
 author_profile: true
 ---
 
-```python
-"""
-Module imitating sqlite3. Feel free to delete/modify
-any of the below suggestions.
+# Module imitating sqlite3. 
 Code Template by James Mariani, Lock functionality implemented by Sachit.
-"""
+
+
+```python
 import string
 from operator import itemgetter
 from collections import namedtuple
