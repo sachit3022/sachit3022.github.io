@@ -5,11 +5,12 @@ permalink: /database_locks/
 author_profile: true
 ---
 
-# Module imitating sqlite3. 
+Module imitating sqlite3. 
 
 
 Code Template by James Mariani, Lock functionality implemented by Sachit.
 
+Database.aquire_lock functions serves as the key implemention of various locks.
 
 
 ```python
@@ -27,8 +28,6 @@ FromJoinClause = namedtuple("FromJoinClause", ["left_table_name",
                                                "right_table_name",
                                                "left_join_col_name",
                                                "right_join_col_name"])
-
-
 class Connection(object):
 
     def __init__(self, filename):
