@@ -2,7 +2,7 @@
 main:
   - title: "Blog"
     url: /blog/
-  - title: "CV"
-    url: /files/Sachit_Resume.pdf
   - title: "Teaching"
     url: /teaching/
+  - title: "CV"
+    url: /files/Sachit_Resume.pdf
