@@ -7,13 +7,15 @@ author_profile: true
 
 Module imitating sqlite3. 
 
-
+```
 Code Template by James Mariani, Lock functionality implemented by Sachit.
-
 Database.aquire_lock functions serves as the key implemention of various locks.
+```
 
 
 ```python
+
+
 import string
 from operator import itemgetter
 from collections import namedtuple
@@ -705,4 +707,4 @@ def tokenize(query):
                 "Query didn't get shorter. query = {}".format(query))
 
     return tokens
-'''
+```
