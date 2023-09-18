@@ -7,6 +7,6 @@ redirect_from:
   - /posts
 ---
 
-{% include base_path %}
-
-☕ Brewing amazing things.
+## [Pattern Unrecognition](https://sachit3022.github.io/blog/pattern-unrecogntion/)
+## [Parallel GPT](https://sachit3022.github.io/blog/pGPT/)
+## [Constrained Optimisation](https://sachit3022.github.io/blog/constrained-opt/)
