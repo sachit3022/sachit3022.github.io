@@ -1,7 +1,31 @@
+
 ---
-title: "Introduction to programming - 2 C++"
+title: "Introduction to programming II - C++"
 collection: teaching
+type: "Undergraduate course TA"
 permalink: /teaching/2023-fall
 venue: "Michigan State University"
 date: 2023-08-28
 ---
+Information related to the [cse 232 course](https://www.cse.msu.edu/~cse232/). This course is taught by [Dr Josh Nahum](http://www.nahum.us/). All the credit for the materials is directed towards [Dr Josh Nahum](http://www.nahum.us/). This page provides commentary and supplementary details of the course.
+# LAB 0
+The goal of the lab is to introduce [pair programming](https://martinfowler.com/articles/on-pair-programming.html). The story of famous google [pair programmers](https://www.newyorker.com/magazine/2018/12/10/the-friendship-that-made-google-huge) Jeff Dean and Sanjay Ghemawat. These labs provides you safe space to think and give you hands on experience, which will help you with the exams and home works.
+# LAB 1
+I/O operations, Type casting of C++, How to think programatically.
+
+#### Good questions from students.
+🍫🍫🍫: <span style="color:green">When the The waves travel there will be the inertia to the wave and also and there will be increase in distance from the moment wave left the planet?</span>
+
+Yes, from the perspective of physics, this point is completly valid.
+
+
+
+
+
+# LAB 2
+Introduction to functions, loops, Intro to recursion and time complexity.
+
+# LAB 3
+
+
+
