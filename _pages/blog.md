@@ -9,7 +9,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center;">
 
-![Unrecognition Dataset](/files/Dataset.png)
+![Unrecognition Dataset](https://sachit3022.github.io/files/Dataset.png)
 
 
 <div style="margin-left: 20px;">
@@ -31,7 +31,7 @@ overcome spurious correlations.</p>
 <div style="clear: both;"></div> <!-- To clear any floats and prevent layout issues -->
 <div style="display: flex; align-items: center;">
 
-![Parallel Strategy](/files/Parallel%20strategy%20(1).png)
+![Parallel Strategy](https://sachit3022.github.io/files/Parallel_strategy.png)
 
 <div style="margin-left: 20px;">
   <h3>Parallel GPT</h3>
@@ -46,4 +46,17 @@ overcome spurious correlations.</p>
 
 <div style="clear: both;"></div> <!-- To clear any floats and prevent layout issues -->
 <div style="display: flex; align-items: center;">
+
+![Constrained Optimisation](https://sachit3022.github.io/files/Calculus-contour-constrain.png)
+
+<div style="margin-left: 20px;">
+  <h3>Constrained Optimisation</h3>
+  <p>Constrained Optimisation is one of the important techniques </p>
+
+[Code](https://github.com/sachit3022/pGPT) | [PDF](https://github.com/sachit3022/pGPT/blob/master/Report.pdf)
+</div>
+
+</div>
+
+<div style="clear: both;"></div> <!-- To clear any floats and prevent layout issues -->
 
