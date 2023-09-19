@@ -24,7 +24,7 @@ more likely to be spotted in snowy backgrounds than dogs. We want to know how
 well current classification techniques address this issue and propose new ideas to
 overcome spurious correlations.</td>
 </tr >
-<td style="border: none; text-align:center;"> <p> <a href="https://sachit3022.github.io/files/files/Pattern_Recognition.pdf">PDF</a> | <a href="https://github.com/sachit3022/unrecognition"> Code </a> </p></td>
+<td style="border: none; text-align:center;"> <p> <a href="https://sachit3022.github.io/files/Pattern_Recognition.pdf">PDF</a> | <a href="https://github.com/sachit3022/unrecognition"> Code </a> </p></td>
 
 </table>
 </div>
