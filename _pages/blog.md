@@ -15,7 +15,7 @@ redirect_from:
 <table >
 <tr style="border: none;">
     <td style="border: none;"><img src="https://sachit3022.github.io/files/Dataset.png" alt="Image 1" width="1500" height="200"></td>
-    <td>Large models can accurately model complex decision boundaries but may not
+    <td style="border: none; ">Large models can accurately model complex decision boundaries but may not
 generalize well to new or out-of-distribution samples. This is a challenge for
 autonomous cars because it’s impossible to collect data from every road in the
 world. Researchers - Ribeiro et.al and Arjovsky et.al - have studied the problem
@@ -24,7 +24,7 @@ more likely to be spotted in snowy backgrounds than dogs. We want to know how
 well current classification techniques address this issue and propose new ideas to
 overcome spurious correlations.</td>
 </tr >
-<td style="border: none;"> <p> <a href="https://sachit3022.github.io/files/files/Pattern_Recognition.pdf">PDF</a> | <a href="https://github.com/sachit3022/unrecognition"> Code </a> </p></td>
+<td style="border: none; text-align:center;"> <p> <a href="https://sachit3022.github.io/files/files/Pattern_Recognition.pdf">PDF</a> | <a href="https://github.com/sachit3022/unrecognition"> Code </a> </p></td>
 
 </table>
 </div>
@@ -36,9 +36,9 @@ overcome spurious correlations.</td>
 <table >
 <tr style="border: none;">
     <td style="border: none;"><img src="https://sachit3022.github.io/files/Parallel_strategy.png" alt="Image 1" width="1500" height="200"></td>
-    <td>We all know the impact of of chatGPT which are trained on massive internet data. The success of ChatGPT can be attributed to the amount we can parallelise, In fact the idea of Attention mechanism which is the crux of GPT was designed to overcome the sequential algorithm LSTM. Once we make the network parallel both the model and data parallel we can leverage the huge amount of data and train massive compute intensive algorithms.In this work, I will use model one attention block, which would constitute the fundamental element of the GPT. I will analyse the efficiency of the parallel strategies and uncover the reasons behind such numbers. Test some of the asymptotic limits of the parallel strategies and will raise some comments on the parallel strategies we have used. you will find the explanations on why we have chosen a particular strategy.</td>
+    <td style="border: none;">We all know the impact of of chatGPT which are trained on massive internet data. The success of ChatGPT can be attributed to the amount we can parallelise, In fact the idea of Attention mechanism which is the crux of GPT was designed to overcome the sequential algorithm LSTM. Once we make the network parallel both the model and data parallel we can leverage the huge amount of data and train massive compute intensive algorithms.In this work, I will use model one attention block, which would constitute the fundamental element of the GPT. I will analyse the efficiency of the parallel strategies and uncover the reasons behind such numbers. Test some of the asymptotic limits of the parallel strategies and will raise some comments on the parallel strategies we have used. you will find the explanations on why we have chosen a particular strategy.</td>
 </tr >
-<td style="border: none;"> <p> <a href="https://github.com/sachit3022/pGPT/blob/master/Report.pdf">PDF</a> | <a href="https://github.com/sachit3022/pGPT"> Code </a> </p></td>
+<td style="border: none; text-align:center;"> <p> <a href="https://github.com/sachit3022/pGPT/blob/master/Report.pdf">PDF</a> | <a href="https://github.com/sachit3022/pGPT"> Code </a> </p></td>
 
 </table>
 </div>
@@ -49,9 +49,9 @@ overcome spurious correlations.</td>
 <table >
 <tr style="border: none;">
     <td style="border: none;"><img src="https://sachit3022.github.io/files/Calculus-contour-constrain.png" alt="Image 1" width="1500" height="200"></td>
-    <td>Fairness problems can be modeled as constrained optimisation problems. One general notion is Minimise the loss of the desired loss function with constrainsts such as it should be fair to all the subgroups. We can define fair in mulitple ways, one such notion is demographic parity should be same for all subgroups. We cover various constrained optimisation techniques covering preliminaries of legrangian method of multipliers and move on to the adverserial min max problems.</td>
+    <td style="border: none;">Fairness problems can be modeled as constrained optimisation problems. One general notion is Minimise the loss of the desired loss function with constrainsts such as it should be fair to all the subgroups. We can define fair in mulitple ways, one such notion is demographic parity should be same for all subgroups. We cover various constrained optimisation techniques covering preliminaries of legrangian method of multipliers and move on to the adverserial min max problems.</td>
 </tr >
-<td style="border: none;"> <p> <a href="https://sachit3022.github.io/">PDF</a> | <a href="https://github.com/sachit3022/const_opt"> Code </a> </p></td>
+<td style="border: none; text-align:center;"> <p> <a href="https://sachit3022.github.io/">PDF</a> | <a href="https://github.com/sachit3022/const_opt"> Code </a> </p></td>
 
 </table>
 </div>
