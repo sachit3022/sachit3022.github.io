@@ -8,21 +8,27 @@ redirect_from:
 ---
 
 <div style="display: flex; align-items: center;">
-
-![Unrecognition Dataset](https://sachit3022.github.io/files/Dataset.png)
-[Code](https://github.com/sachit3022/unrecognition) | [PDF](/files/Pattern_Recognition.pdf)
-
-
 <div style="margin-left: 20px;">
-  <h3>Pattern Unrecognition</h3>
-  <p>Large models can accurately model complex decision boundaries but may not
+<h3>Pattern Unrecognition</h3>
+<table>
+<tr>
+    <td><img src="https://sachit3022.github.io/files/Dataset.png" alt="Image 1" width="1500" height="200"></td>
+    <td>Large models can accurately model complex decision boundaries but may not
 generalize well to new or out-of-distribution samples. This is a challenge for
 autonomous cars because it’s impossible to collect data from every road in the
 world. Researchers - Ribeiro et.al and Arjovsky et.al - have studied the problem
 of spurious correlations in image classification, where, for example, wolves are
 more likely to be spotted in snowy backgrounds than dogs. We want to know how
 well current classification techniques address this issue and propose new ideas to
-overcome spurious correlations.</p>
+overcome spurious correlations.</td>
+</tr>
+<td><p> <a href="https://sachit3022.github.io/files/files/Pattern_Recognition.pdf">PDF</a> | <a href="https://github.com/sachit3022/unrecognition"> Code </a> </p></td>
+
+</table>
+<table>
+<div style="margin-left: 20px;">
+  
+  <p></p>
 
 </div>
 
