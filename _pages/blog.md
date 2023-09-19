@@ -10,6 +10,7 @@ redirect_from:
 <div style="display: flex; align-items: center;">
 
 ![Unrecognition Dataset](https://sachit3022.github.io/files/Dataset.png)
+[Code](https://github.com/sachit3022/unrecognition) | [PDF](/files/Pattern_Recognition.pdf)
 
 
 <div style="margin-left: 20px;">
@@ -23,8 +24,8 @@ more likely to be spotted in snowy backgrounds than dogs. We want to know how
 well current classification techniques address this issue and propose new ideas to
 overcome spurious correlations.</p>
 
-[Code](https://github.com/sachit3022/unrecognition) | [PDF](/files/Pattern_Recognition.pdf)
 </div>
+
 
 </div>
 
@@ -32,12 +33,11 @@ overcome spurious correlations.</p>
 <div style="display: flex; align-items: center;">
 
 ![Parallel Strategy](https://sachit3022.github.io/files/Parallel_strategy.png)
+[Code](https://github.com/sachit3022/unrecognition) | [PDF](/files/Pattern_Recognition.pdf)
 
 <div style="margin-left: 20px;">
   <h3>Parallel GPT</h3>
   <p>We all know the impact of of chatGPT which are trained on massive internet data. The success of ChatGPT can be attributed to the amount we can parallelise, In fact the idea of Attention mechanism which is the crux of GPT was designed to overcome the sequential algorithm LSTM. Once we make the network parallel both the model and data parallel we can leverage the huge amount of data and train massive compute intensive algorithms.In this work, I will use model one attention block, which would constitute the fundamental element of the GPT. I will analyse the efficiency of the parallel strategies and uncover the reasons behind such numbers. Test some of the asymptotic limits of the parallel strategies and will raise some comments on the parallel strategies we have used. you will find the explanations on why we have chosen a particular strategy.</p>
-
-[Code](https://github.com/sachit3022/pGPT) | [PDF](https://github.com/sachit3022/pGPT/blob/master/Report.pdf)
 </div>
 
 </div>
@@ -48,12 +48,11 @@ overcome spurious correlations.</p>
 <div style="display: flex; align-items: center;">
 
 ![Constrained Optimisation](https://sachit3022.github.io/files/Calculus-contour-constrain.png)
+[Code](https://github.com/sachit3022/const_opt) | [PDF](https://sachit3022.github.io/)
 
 <div style="margin-left: 20px;">
   <h3>Constrained Optimisation</h3>
-  <p>Constrained Optimisation is one of the important techniques </p>
-
-[Code](https://github.com/sachit3022/pGPT) | [PDF](https://github.com/sachit3022/pGPT/blob/master/Report.pdf)
+  <p>Fairness problems can be modeled as constrained optimisation problems. One general notion is Minimise the loss of the desired loss function with constrainsts such as it should be fair to all the subgroups. We can define fair in mulitple ways, one such notion is demographic parity should be same for all subgroups. We cover various constrained optimisation techniques covering preliminaries of legrangian method of multipliers and move on to the adverserial min max problems.</p>
 </div>
 
 </div>
