@@ -8,6 +8,23 @@ redirect_from:
 ---
 
 
+</table>
+</div>
+</div>
+<div style="display: flex; align-items: center;">
+<div style="margin-left: 20px;">
+<h3>Machine Unlearning</h3>
+<table >
+<tr style="border: none;">
+    <td style="border: none;"><img src="https://sachit3022.github.io/files/Calculus-contour-constrain.png" alt="Image 1" width="1500" height="200"></td>
+    <td style="border: none;">Phase 1 of Unlearning</td>
+</tr >
+<td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/Unlearning.pdf">PDF</a> [work in progress] </span> | <a href="https://github.com/sachit3022/unlearning"> Code  </a> <span style ="color:orange;">[work in progress] </span> </p></td>
+
+</table>
+</div>
+</div>
+
 
 <div style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
@@ -51,9 +68,11 @@ overcome spurious correlations.</td>
     <td style="border: none;"><img src="https://sachit3022.github.io/files/Calculus-contour-constrain.png" alt="Image 1" width="1500" height="200"></td>
     <td style="border: none;">Fairness problems can be modeled as constrained optimisation problems. One general notion is Minimise the loss of the desired loss function with constrainsts such as it should be fair to all the subgroups. We can define fair in mulitple ways, one such notion is demographic parity should be same for all subgroups. We cover various constrained optimisation techniques covering preliminaries of legrangian method of multipliers and move on to the adverserial min max problems.</td>
 </tr >
-<td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/">PDF</a> [soon] </span> | <a href="https://github.com/sachit3022/const_opt"> Code  </a> <span style ="color:orange;">[soon] </span> </p></td>
+<td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/Optimisation.pdf">PDF</a> [work in progress] </span> | <a href="https://github.com/sachit3022/const_opt"> Code  </a> <span style ="color:orange;">[work in progress] </span> </p></td>
 
 </table>
 </div>
 </div>
+
+
 
