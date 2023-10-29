@@ -8,9 +8,7 @@ redirect_from:
 ---
 
 
-</table>
-</div>
-</div>
+
 <div style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
 <h3>Machine Unlearning</h3>
