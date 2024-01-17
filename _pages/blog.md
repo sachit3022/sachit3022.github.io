@@ -27,7 +27,7 @@ redirect_from:
 <h3>Solving Dynamic Programming questions using Integer Optimisation</h3>
 <table >
 <tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/files/Dp.png" alt="Image 1" width="1500" height="200"></td>
+    <td style="border: none;"><img src="https://sachit3022.github.io/files/Dp.png" alt="Image 1" width="150" height="200"></td>
     <td style="border: none;">  Solving Dynamic Programming questions using Integer Optimisation </td>
 </tr >
 <td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/DP.pdf">PDF</a> [work in progress] </span> </p></td>
@@ -44,7 +44,7 @@ redirect_from:
 <h3>Machine Unlearning</h3>
 <table >
 <tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/files/Unlearning-logo.png" alt="Image 1" width="1500" height="200"></td>
+    <td style="border: none;"><img src="https://sachit3022.github.io/files/Unlearning-logo.png" alt="Image 1" width="150" height="200"></td>
     <td style="border: none;">Our research delves into the critical challenge of data privacy and compliance with emerging regulations, specifically the EU’s General Data Protection Regulation (GDPR). Large AI models have shown tendencies to either hallucinate or inadvertently memorize training data, posing a significant threat to user privacy. In light of GDPR’s ”right to be forgotten”imperative, the necessity to eradicate any traces of sensitive user information is evident. Retraining models from scratch for each individual removal is impractical due to the substantial time and computational resources involved.This research centers on developing an efficient unlearning method, both in terms of time and memory, to effectively eliminate sensitive user data. These unlearning methods can extend their utility to the removal of noisy data points and the mitigation of hate speech.</td>
 </tr >
 <td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/Unlearning.pdf">PDF</a> </span> | <a href="https://github.com/sachit3022/unlearning"> Code  </a> <span style ="color:orange;"> </span> </p></td>
