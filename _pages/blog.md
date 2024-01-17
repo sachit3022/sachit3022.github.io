@@ -7,6 +7,36 @@ redirect_from:
   - /blog
 ---
 
+<div style="display: flex; align-items: center;">
+<div style="margin-left: 20px;">
+<h3>Fairness in LLM</h3>
+<table >
+<tr style="border: none;">
+    <td style="border: none;"><img src="https://sachit3022.github.io/files/FairLLM.png" alt="Image 1" width="1500" height="200"></td>
+    <td style="border: none;"> Understanding fairness in LLM</td>
+</tr >
+<td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/Fairness_LLM.pdf">PDF</a> [work in progress] </span> </p></td>
+
+</table>
+</div>
+</div>
+
+
+<div style="display: flex; align-items: center;">
+<div style="margin-left: 20px;">
+<h3>Solving Dynamic Programming questions using Integer Optimisation</h3>
+<table >
+<tr style="border: none;">
+    <td style="border: none;"><img src="https://sachit3022.github.io/files/DP.png" alt="Image 1" width="1500" height="200"></td>
+    <td style="border: none;">  Solving Dynamic Programming questions using Integer Optimisation </td>
+</tr >
+<td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/DP.pdf">PDF</a> [work in progress] </span> </p></td>
+
+</table>
+</div>
+</div>
+
+
 
 
 <div style="display: flex; align-items: center;">
