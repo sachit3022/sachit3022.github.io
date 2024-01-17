@@ -27,7 +27,7 @@ redirect_from:
 <h3>Solving Dynamic Programming questions using Integer Optimisation</h3>
 <table >
 <tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/files/DP.png" alt="Image 1" width="1500" height="200"></td>
+    <td style="border: none;"><img src="https://sachit3022.github.io/files/Dp.png" alt="Image 1" width="1500" height="200"></td>
     <td style="border: none;">  Solving Dynamic Programming questions using Integer Optimisation </td>
 </tr >
 <td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/DP.pdf">PDF</a> [work in progress] </span> </p></td>
