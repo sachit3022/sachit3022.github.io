@@ -12,7 +12,7 @@ redirect_from:
 <h3>Fairness in LLM</h3>
 <table >
 <tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/files/FairLLM.png" alt="Image 1" width="200" height="200"></td>
+    <td style="border: none;"><img src="https://sachit3022.github.io/files/FairLLM.png" alt="Image 1" width="300" height="200"></td>
     <td style="border: none;"> To investigate bias in Large Language Models (LLMs),
 we conduct experiments focusing on the Adult Dataset, addressing simplifications for clarity. </td>
 </tr >
@@ -28,7 +28,7 @@ we conduct experiments focusing on the Adult Dataset, addressing simplifications
 <h3>Solving Dynamic Programming questions using Integer Optimisation</h3>
 <table >
 <tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/files/Dp.png" alt="Image 1" width="200" height="200"></td>
+    <td style="border: none;"><img src="https://sachit3022.github.io/files/Dp.png" alt="Image 1" width="300" height="200"></td>
     <td style="border: none;">  Dynamic programming are a set of algorithms that are applied to reduce the time complexity with memoization. We will pick 3 problems and walk step by step to improve the time complexity. The common aspect of the below problems is that the problem are explicitly to optimize some parameter either number of coins in coin change or profit in knapsack. </td>
 </tr >
 <td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/DP.pdf">PDF</a> [work in progress] </span> </p></td>
