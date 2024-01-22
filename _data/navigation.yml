@@ -1,7 +1,9 @@
 # main links links
 main:
-  - title: "Blog"
+  - title: "Research"
     url: /blog/
+  - title: "Personal Blog"
+    url: /other-blog/
   - title: "Teaching"
     url: /teaching/
   - title: "CV"
