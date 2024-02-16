@@ -21,12 +21,13 @@ Significant advancements in the field of machine learning, particularly in the d
 <div style="margin-left: 20px;">
 <table style="border: none;">
 <tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/other-blog/posts/adv_opt/IMG_894ED9BDAD53-1.jpeg" alt="Image 1" width="100" height="80"></td>
-    <td style="border: none;"> <a href="https://sachit3022.github.io/other-blog/posts/adv_opt/">All you need optimisation for Adverserial Machine Learning.</a>  </td>
+    <td style="border: none;"><img src="https://sachit3022.github.io/other-blog/posts/adv_opt/IMG_894ED9BDAD53-1.jpeg" alt="Image 1" width="250" height="150"> 
+</td>
+    <td style="border: none; color:red; font-family:Monospace; font-size:2em;"> <a href="https://sachit3022.github.io/other-blog/posts/adv_opt/ " style="color:#36AE7C;">All you need optimisation for Adverserial Machine Learning.</a>  </td>
 </tr >
 <tr style="border: none;">
-    <td style="border: none;"><img src="../images/image-1.png" alt="Image 1" width="100" height="80"></td>
-    <td style="border: none;"> <a href="https://sachit3022.github.io/other-blog/posts/running/">How running keeps me on ground.</a>  </td>
+    <td style="border: none; "><img src="../images/image-1.png" alt="Image 1" width="250" height="150"></td>
+    <td style="border: none; font-family:Monospace; font-size:2em "> <a href="https://sachit3022.github.io/other-blog/posts/running/ " style="color:#36AE7C;">How running keeps me on ground.</a>  </td>
 </tr >
 
 </table>
