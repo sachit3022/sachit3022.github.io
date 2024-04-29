@@ -7,12 +7,34 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I am a first-year Masters Student in the [Computer Science and Engineering Department](http://www.cse.msu.edu) at [Michigan State University](http://www.msu.edu/) pursuing my masters degree under the supervision of [Dr. Vishnu Boddeti](http://vishnu.boddeti.net/). I am extremely lucky to have amazing colleagues at [Human Analysis Lab](https://hal.cse.msu.edu/). In my past life I have received my bachelor's degree from the [Indian Institute of Technology, Guwahati Guwahati, India](https://www.iitg.ac.in/). 
+Hello! I am a Second-year Masters Student in the [Computer Science and Engineering Department](http://www.cse.msu.edu) at [Michigan State University](http://www.msu.edu/) pursuing my masters degree under the supervision of [Dr. Vishnu Boddeti](http://vishnu.boddeti.net/). I am extremely lucky to have amazing colleagues at [Human Analysis Lab](https://hal.cse.msu.edu/). In my past life I have received my bachelor's degree from the [Indian Institute of Technology, Guwahati, India](https://www.iitg.ac.in/). 
 
-My interest lies in the field of algorithmic fairness, along with its interconnected areas such as group fairness, distribution shift analysis, machine unlearning, debiasing, spurious correlations, and causality.
+My research goal broadly speaking is to understand and improve the generalisation in Machine Learning. One way to look at my works is that a generalised model will perform better on all the tasks. 
+
+- Distribution Shift 
+    - [Improving distribution shift for classical Machine Leaning](https://sachit3022.github.io/files/Pattern_Recognition.pdf)
+- Fairness
+    - [Constrained optimisation for solving min-max problems.](https://sachit3022.github.io/files/Optimisation.pdf)
+    - [Improving Fairness in LLM.](https://sachit3022.github.io/files/Fairness_LLM.pdf)
+- Adversarial Machine Learning
+   - [Survey: All things Adversarial in LLMs.](https://sachit3022.github.io/blog/)
+- Privacy
+    - [Machine Unlearning](https://sachit3022.github.io/files/Unlearning.pdf)
 
 
-Significant advancements in the field of machine learning, particularly in the development of transformative architectures such as transformers and the creation of large-scale models like CLIP and GPT-4, have undeniably pushed the boundaries of AI capabilities. However, a profound challenge remains in comprehending the underlying behavior of these models. This challenge is intrinsically linked to our quest to understand how humans transfer knowledge across diverse domains. A line of attack in this pursuit is model fairness, ensuring equitable treatment of all groups, contributes to the model's ability to robustly navigate shifts in group distribution. [Pattern Unrecognition](https://sachit3022.github.io/posts/pattern-unrecogntion/) is one such attempt to study classical Machine Learning models from the lens of distribution shift. Second line of attack is imperative that memorization leads to lower generalization. Memorization also poses a legal concern when dealing with sensitive user data, which poses an increasing concern in today's world. To address this I am currenly working on [Machine Unlearning problem.](https://unlearning-challenge.github.io/)
+
+I also care about the impact of ML and worked on some of the practical problems such as multi-modal representations, and data parallisaiton.   
+
+- [Pridiction algorithms for large scale multi-modal with immbalance.](https://sachit3022.github.io/blog/)
+ - [Parallel GPT](https://github.com/sachit3022/pGPT/blob/master/Report.pdf)
+
+
+
+
+
+I teach programming ([CSE 232](https://sachit3022.github.io/teaching/2023-fall)) at Michigan State university. 
+
+I enjoy [running](https://sachit3022.github.io/other-blog/posts/running/ ) on a rare sunny day in East Lansing, MI. On a gloomy day, I sitdown with a sip of coffee ☕ and [Leetcode](https://leetcode.com/u/sachit3022/).  
 
 
 <h2><img src="https://sachit3022.github.io/images/image.png" width="40" height="40">New Posts</h2>

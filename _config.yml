@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Sachit"
   avatar           : "sachit.jpg"
-  bio              : "First year computer science masters student at Michigan State University."
+  bio              : "Second year computer science masters student at Michigan State University."
   location         : "MI,US"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -115,7 +115,6 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
 
 # Reading Files
 include:
