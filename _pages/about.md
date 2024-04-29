@@ -9,21 +9,21 @@ redirect_from:
 ---
 Hello! I am a Second-year Masters Student in the [Computer Science and Engineering Department](http://www.cse.msu.edu) at [Michigan State University](http://www.msu.edu/) pursuing my masters degree under the supervision of [Dr. Vishnu Boddeti](http://vishnu.boddeti.net/). I am extremely lucky to have amazing colleagues at [Human Analysis Lab](https://hal.cse.msu.edu/). In my past life I have received my bachelor's degree from the [Indian Institute of Technology, Guwahati, India](https://www.iitg.ac.in/). 
 
-My research goal broadly speaking is to understand and improve the generalisation in Machine Learning. One way to look at my works is that a generalised model will perform better on all the tasks. 
+My research goal, broadly speaking, is to understand and improve generalization in machine learning. One perspective on my work is that a generalized model will perform better across all the below tasks.
 
-- Distribution Shift 
-    - [Improving distribution shift for classical Machine Leaning](https://sachit3022.github.io/files/Pattern_Recognition.pdf)
-- Fairness
-    - [Constrained optimisation for solving min-max problems.](https://sachit3022.github.io/files/Optimisation.pdf)
-    - [Improving Fairness in LLM.](https://sachit3022.github.io/files/Fairness_LLM.pdf)
+- Distribution shift
+    - [Addressing Distribution Shift in classical Machine Leaning](https://sachit3022.github.io/files/Pattern_Recognition.pdf)
+- Algorithmic Fairness
+    - [Notes on Constrained Optimization and Min-Max Problems](https://sachit3022.github.io/files/Optimisation.pdf)
+    - [Improving fairness in LLMs](https://sachit3022.github.io/files/Fairness_LLM.pdf)
 - Adversarial Machine Learning
-   - [Survey: All things Adversarial in LLMs.](https://sachit3022.github.io/blog/)
+   - [Survey: All Things Adversarial in LLMs](https://sachit3022.github.io/blog/)
 - Privacy
     - [Machine Unlearning](https://sachit3022.github.io/files/Unlearning.pdf)
 
 
 
-I also care about the impact of ML and worked on some of the practical problems such as multi-modal representations, and data parallisaiton.   
+I also care about the impact of ML and have worked on some practical problems such as multi-modal representations and data parallelization. 
 
 - [Pridiction algorithms for large scale multi-modal with immbalance.](https://sachit3022.github.io/blog/)
  - [Parallel GPT](https://github.com/sachit3022/pGPT/blob/master/Report.pdf)
