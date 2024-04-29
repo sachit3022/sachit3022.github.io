@@ -16,15 +16,15 @@ This includes working on areas like spurious correlation, algorithmic fairness, 
     - [Addressing Spurious Correlation in Classical Machine Learning](https://sachit3022.github.io/files/Pattern_Recognition.pdf)
 - <b>Algorithmic Fairness: </b> The general model shouldn't base its decisions on sensitive attributes like gender. It ensures fair decisions for everyone.
     - [Notes on Constrained Optimization and Min-Max Problems](https://sachit3022.github.io/files/Optimisation.pdf)
-    - [Improving Fairness in LLMs](https://sachit3022.github.io/files/Fairness_LLM.pdf)
+    - [Improving Fairness in LLMs](https://sachit3022.github.io/files/Fair_LLM.pdf)
 - <b>Adversarial Machine Learning:</b> A useful model should be helpful and harmless.
-   - [Survey: All Things Adversarial in LLMs](https://sachit3022.github.io/blog/)
+   - [Survey: All Things Adversarial in LLMs](https://sachit3022.github.io/files/Adverserial_text.pdf)
 - <b> Privacy: </b> The general model should not memorize the training data.
     - [Machine Unlearning](https://sachit3022.github.io/files/Unlearning.pdf)
 
 I also care about the impact of ML and have worked on some practical problems such as multi-modal representations and data parallelization. 
 
-- [Prediction algorithms for large-scale multi-modal with imbalance.](https://sachit3022.github.io/blog/)
+- [Prediction algorithms for large-scale multi-modal with imbalance.](https://sachit3022.github.io/files/sachit.github.io/files/Large scale predictive data.pdf)
  - [Parallel GPT](https://github.com/sachit3022/pGPT/blob/master/Report.pdf)
 
 🧑‍🏫 I teach programming ([CSE 232](https://sachit3022.github.io/teaching/2023-fall)) at Michigan State University. 

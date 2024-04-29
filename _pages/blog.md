@@ -9,14 +9,13 @@ redirect_from:
 
 <div style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
-<h3>Fairness in LLM</h3>
+<h3>Adversarial Techniques for Improving Fairness in LLMs</h3>
 <table >
 <tr style="border: none;">
     <td style="border: none;"><img src="https://sachit3022.github.io/files/FairLLM.png" alt="Image 1" width="300" height="200"></td>
-    <td style="border: none;"> To investigate bias in Large Language Models (LLMs),
-we conduct experiments focusing on the Adult Dataset, addressing simplifications for clarity. </td>
+    <td style="border: none;"> Large Language Models (LLMs) have experienced a surge in popularity in recent times, owing to their remarkable ability to follow instructions and demonstrate success across a wide range of Natural Language Processing (NLP) tasks. However, LLMs suffer from a wide range of issues such as harmful generation, fairness, privacy, and robustness. Addressing these issues provides immense value to society and also ensures responsible use of technology. These issues can be classified as adversarial tasks, where the goal of the adversary is to trigger wrong behavior, and LLMs should be robust to such attacks. We collate recent advances in adversarial techniques in the survey paper. We address the discrete inputs with Gumbel softmax reparametrization trick and instability with stochastic weight averaging (SWA), and we leverage LoRA adapter to account for the large memory and compute required to train LLMs.</td>
 </tr >
-<td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/Fairness_LLM.pdf">PDF</a> [work in progress] </span> </p></td>
+<td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/Adverserial_text.pdf">Survey</a> </span> | <a href="https://sachit3022.github.io/files/Fair_LLM.pdf"> Fair LLM  </a> <span style ="color:orange;"> </span> </p></td>
 
 </table>
 </div>
