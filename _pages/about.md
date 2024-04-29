@@ -27,12 +27,12 @@ I also care about the impact of ML and have worked on some practical problems su
 - [Prediction algorithms for large-scale multi-modal with imbalance.](https://sachit3022.github.io/blog/)
  - [Parallel GPT](https://github.com/sachit3022/pGPT/blob/master/Report.pdf)
 
-I teach programming ([CSE 232](https://sachit3022.github.io/teaching/2023-fall)) at Michigan State University. 
+🧑‍🏫 I teach programming ([CSE 232](https://sachit3022.github.io/teaching/2023-fall)) at Michigan State University. 
 
-I enjoy [running](https://sachit3022.github.io/other-blog/posts/running/ ) on a rare sunny day in East Lansing, MI. On a gloomy day, I sit down with a sip of coffee ☕ and [Leetcode](https://leetcode.com/u/sachit3022/).  
+⛳  I enjoy [running](https://sachit3022.github.io/other-blog/posts/running/ ) on a rare sunny day in East Lansing, MI. On a gloomy day, I sit down with a sip of coffee ☕ and [Leetcode](https://leetcode.com/u/sachit3022/).  
 
 
- <span style="color:red;"><strong> Open to internship for Summer/Fall 2024. I am also on the job market starting December 2024. Please reach out to me.</strong></span>
+💼 <span style="color:red;"><strong> Open to internship for Summer/Fall 2024. I am also on the job market starting December 2024. Please reach out to me.</strong></span>
 
 
 <h2><img src="https://sachit3022.github.io/images/image.png" width="40" height="40">New Posts</h2>
