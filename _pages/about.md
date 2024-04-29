@@ -7,18 +7,19 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I am a Second-year Masters Student in the [Computer Science and Engineering Department](http://www.cse.msu.edu) at [Michigan State University](http://www.msu.edu/) pursuing my masters degree under the supervision of [Dr. Vishnu Boddeti](http://vishnu.boddeti.net/). I am extremely lucky to have amazing colleagues at [Human Analysis Lab](https://hal.cse.msu.edu/). In my past life I have received my bachelor's degree from the [Indian Institute of Technology, Guwahati, India](https://www.iitg.ac.in/). 
+Hello! I am a Second-year Masters Student in the [Computer Science and Engineering Department](http://www.cse.msu.edu) at [Michigan State University](http://www.msu.edu/) pursuing my masters degree under the supervision of [Dr. Vishnu Boddeti](http://vishnu.boddeti.net/). I am extremely lucky to have amazing colleagues at [Human Analysis Lab](https://hal.cse.msu.edu/). I received my bachelor's degree from the [IIT, Guwahati](https://www.iitg.ac.in/). 
 
-My research goal, broadly speaking, is to understand and improve generalization in machine learning. One perspective on my work is that a generalized model will perform better across all the below tasks.
+My research goal is to improve the capacity of machine learning systems to generalize effectively. 
+This includes working on areas like suprious correlation, algorithmic fairness, adversarial machine learning, and privacy preservation. By solving these problems, I aim to enhance the robustness and reliability of AI systems. 
 
-- Distribution shift
-    - [Addressing Distribution Shift in classical Machine Leaning](https://sachit3022.github.io/files/Pattern_Recognition.pdf)
-- Algorithmic Fairness
+- <b>Suprious Correlation:</b> The general model must pay attention to the important parts of the image (like the wolf's features) rather than getting distracted by irrelevant details (like the snowy background).
+    - [Addressing Suprious Correlation in classical Machine Leaning](https://sachit3022.github.io/files/Pattern_Recognition.pdf)
+- <b>Algorithmic Fairness: </b> The general model shouldn't base its decisions on sensitive attributes like gender. It ensures fair decisions for everyone.
     - [Notes on Constrained Optimization and Min-Max Problems](https://sachit3022.github.io/files/Optimisation.pdf)
     - [Improving fairness in LLMs](https://sachit3022.github.io/files/Fairness_LLM.pdf)
-- Adversarial Machine Learning
+- <b>Adversarial Machine Learning:</b> A useful model should be helpful and harmless.
    - [Survey: All Things Adversarial in LLMs](https://sachit3022.github.io/blog/)
-- Privacy
+- <b> Privacy: </b> The general model should not memorize the training data.
     - [Machine Unlearning](https://sachit3022.github.io/files/Unlearning.pdf)
 
 
