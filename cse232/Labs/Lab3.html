@@ -47,20 +47,20 @@ int main()
 {
   double a,b,tolerance,estimated_area,actual_area,curr_tolerance;
   int n;
-  std::cout << "Lower Range:" <<std::endl;
-  std::cin >> a;
-  std::cout <<"Upper Range:" <<std::endl;
-  std::cin >> b;
-  std::cout <<"Tolerance:" <<std::endl;
-  std::cin >> tolerance;
-  std::cout <<"Initial trapezoid count:" <<std::endl;
-  std::cin >> n;
+  std::cout &lt;&lt;  "Lower Range:" &lt;&lt; std::endl;
+  std::cin &gt;&gt;  a;
+  std::cout &lt;&lt; "Upper Range:" &lt;&lt; std::endl;
+  std::cin &gt;&gt;  b;
+  std::cout &lt;&lt; "Tolerance:" &lt;&lt; std::endl;
+  std::cin &gt;&gt;  tolerance;
+  std::cout &lt;&lt; "Initial trapezoid count:" &lt;&lt; std::endl;
+  std::cin &gt;&gt;  n;
   curr_tolerance = tolerance +1;
   while(curr_tolerance&gt;tolerance){
     estimated_area = EstimateWithTraps(a,b,n);
     actual_area = std::abs(Integral(b)) - std::abs(Integral(a));
     curr_tolerance = std::abs(estimated_area- actual_area);
-    std::cout << "Estimate:"<< std::fixed << std::setprecision(4) <<estimated_area << ", Number of Traps:"<<n<<", Diff:"<<curr_tolerance<<std::endl;
+    std::cout &lt;&lt;  "Estimate:"&lt;&lt;  std::fixed &lt;&lt;  std::setprecision(4) &lt;&lt; estimated_area &lt;&lt;  ", Number of Traps:"&lt;&lt; n&lt;&lt; ", Diff:"&lt;&lt; curr_tolerance&lt;&lt; std::endl;
     n = n*2;
   }
   return 0;
