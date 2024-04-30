@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>C++ Code:</h2>
+
+<pre><code>
+#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+#include &lt;string&gt;
+using namespace std;
+
+std::int64_t LocToDec(std::string const &amp; loc){
+  long int dec =0;
+  for(std::string::size_type i = 0; i &lt; loc.size(); ++i){
+    dec += pow(2,loc[i] - 97);
+  }
+  return dec;
+}
+
+std::string DecToLoc(std::int64_t dec){
+  std::string loc;
+  int loop_count =0;
+  while(dec !=0){
+    int rem = dec % 2;
+    dec = (dec - rem) / 2;
+    if(rem&gt;0){
+      loc += (char)(loop_count+97);
+    }
+    loop_count +=1; 
+  }
+  return loc;
+}
+std::string Abbreviate(std::string const &amp; loc)
+{
+  return DecToLoc(LocToDec(loc));
+}
+std::int64_t AddLoc(std::string const &amp; loc1, std::string const &amp; loc2)
+{
+  return LocToDec(loc1+loc2);
+}
+
+int main()
+{
+  string loc, string1,string2;
+  long int dec;
+
+  cout &lt;&lt; "Give me a location string:";  
+  cin &gt;&gt; loc;
+  cout &lt;&lt; "Give me an integer:";
+  cin &gt;&gt; dec ;
+  sort(loc.begin(), loc.end());
+  cout &lt;&lt; loc &lt;&lt; " to dec: " &lt;&lt; LocToDec(loc) &lt;&lt; endl;
+  cout &lt;&lt; dec &lt;&lt; " to loc: " &lt;&lt; DecToLoc(dec) &lt;&lt; endl;
+  cout &lt;&lt; "Give me two more location strings:";
+  cin &gt;&gt; string1;
+  cin &gt;&gt; string2;
+}
+</code></pre>
+
+</body>
+</html>

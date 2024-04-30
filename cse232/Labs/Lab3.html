@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p></p>The objective of the lab is to find the area of the polynomial function.
+The concepts that we use here is exponential search algorithm, To motivate you further, this is not some mathematical problem, we can this is applied to real life cases.
+Suppose MSU wants to install routers in one of the halls, If you install one router, there will be lot of complaints, if 2 routers complaints decreases but if you do routers more than students it will be of no use wasting money, So MSU needs to decide optimal amount of routers given complaints &lt; 5.
+Same applies to the number of items on menu at the dining halls. you get the idea by now.</p>
+
+<p>Major problems I see is you are struggling with the syntax and logic. We will focus one at a time. If you are comfortable in python write the code in python ( less worry about syntax) and then I will help you write cpp or you can figure out on your own.</p>
+
+<p>Revise last lab, We have covered recursion, loops and lab before that we covered input output, datatypes and precision. In this lab we will learn about functions.</p>
+
+<p>Lets get back to our initial problem.
+We will start with simple functions.</p>
+
+<p>The solution of the problem is given below.</p>
+
+<pre><code class="language-cpp">
+#include &lt;iostream&gt;
+#include &lt;math.h&gt;
+#include &lt;iomanip&gt;
+
+// YOUR FUNCTIONS GO HERE
+double Fn(double x){
+  return -6*pow(x,2) +5*x +3;
+}
+double Integral(double x){
+  return -2*pow(x,3) +5*pow(x,2)/2 +3*x;
+}
+
+double EstimateWithTraps(double a, double b, int n){
+  double dx = (b - a)/n;
+  double area_dx =0;
+  double x =a;
+  for(int i=0;i&lt;n;i++){
+    area_dx += dx*(std::abs(Fn(x)) + std::abs(Fn(x+dx)))/2;
+    x +=dx;
+  }
+  return area_dx;
+}
+
+// Trapezoid calculation method...
+int main()
+{
+  double a,b,tolerance,estimated_area,actual_area,curr_tolerance;
+  int n;
+  std::cout &lt;&lt;"Lower Range:" &lt;&lt;std::endl;
+  std::cin &gt;&gt; a;
+  std::cout &lt;&lt;"Upper Range:" &lt;&lt;std::endl;
+  std::cin &gt;&gt; b;
+  std::cout &lt;&lt;"Tolerance:" &lt;&lt;std::endl;
+  std::cin &gt;&gt; tolerance;
+  std::cout &lt;&lt;"Initial trapezoid count:" &lt;&lt;std::endl;
+  std::cin &gt;&gt; n;
+  curr_tolerance = tolerance +1;
+  while(curr_tolerance&gt;tolerance){
+    estimated_area = EstimateWithTraps(a,b,n);
+    actual_area = std::abs(Integral(b)) - std::abs(Integral(a));
+    curr_tolerance = std::abs(estimated_area- actual_area);
+    std::cout &lt;&lt; "Estimate:"&lt;&lt; std::fixed &lt;&lt; std::setprecision(4) &lt;&lt;estimated_area &lt;&lt; ", Number of Traps:"&lt;&lt;n&lt;&lt;", Diff:"&lt;&lt;curr_tolerance&lt;&lt;std::endl;
+    n = n*2;
+  }
+  return 0;
+
+}
+</code></pre>
+</body>
+</html>
