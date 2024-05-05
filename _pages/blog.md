@@ -7,6 +7,7 @@ redirect_from:
   - /blog
 ---
 
+
 <div style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
 <h3>Adversarial Techniques for Improving Fairness in LLMs</h3>
@@ -14,6 +15,9 @@ redirect_from:
 <tr style="border: none;">
     <td style="border: none;"><img src="https://sachit3022.github.io/files/FairLLM.png" alt="Image 1" width="1500" height="200"></td>
     <td style="border: none;"> Large Language Models (LLMs) have experienced a surge in popularity in recent times, owing to their remarkable ability to follow instructions and demonstrate success across a wide range of Natural Language Processing (NLP) tasks. However, LLMs suffer from a wide range of issues such as harmful generation, fairness, privacy, and robustness. Addressing these issues provides immense value to society and also ensures responsible use of technology. These issues can be classified as adversarial tasks, where the goal of the adversary is to trigger wrong behavior, and LLMs should be robust to such attacks. We collate recent advances in adversarial techniques in the survey paper. We address the discrete inputs with Gumbel softmax reparametrization trick and instability with stochastic weight averaging (SWA), and we leverage LoRA adapter to account for the large memory and compute required to train LLMs.</td>
+
+
+    
 </tr >
 <td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/Adverserial_text.pdf">Survey</a> </span> | <a href="https://sachit3022.github.io/files/Fair_LLM.pdf"> Fair LLM  </a> <span style ="color:orange;"> </span> </p></td>
 
@@ -83,7 +87,7 @@ overcome spurious correlations.</td>
     <td style="border: none;"><img src="https://sachit3022.github.io/files/Parallel_strategy.png" alt="Image 1" width="1500" height="200"></td>
     <td style="border: none;">We all know the impact of of chatGPT which are trained on massive internet data. The success of ChatGPT can be attributed to the amount we can parallelise, In fact the idea of Attention mechanism which is the crux of GPT was designed to overcome the sequential algorithm LSTM. Once we make the network parallel both the model and data parallel we can leverage the huge amount of data and train massive compute intensive algorithms.In this work, I will use model one attention block, which would constitute the fundamental element of the GPT. I will analyse the efficiency of the parallel strategies and uncover the reasons behind such numbers. Test some of the asymptotic limits of the parallel strategies and will raise some comments on the parallel strategies we have used. you will find the explanations on why we have chosen a particular strategy.</td>
 </tr >
-<td style="border: none; text-align:center;"> <p> <a href="https://github.com/sachit3022/pGPT/blob/master/Report.pdf">PDF</a> | <a href="https://github.com/sachit3022/pGPT"> Code </a> </p></td>
+<td style="border: none; text-align:center;"> <p> <a href="https://sachit3022.github.io/files/p_GPT.pdf">PDF</a> | <a href="https://github.com/sachit3022/pGPT"> Code </a> </p></td>
 
 </table>
 </div>
