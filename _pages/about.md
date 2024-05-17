@@ -35,15 +35,20 @@ I also care about the impact of ML and have worked on some practical problems su
 💼 <span style="color:red;"><strong> Open to internship for Summer/Fall 2024. I am also on the job market starting December 2024. Please reach out to me.</strong></span>
 
 
+<div align='center'>
+<img src="" alt="DDPM" style="width:300px;"/> 
+</div>
+
 <h2><img src="https://sachit3022.github.io/images/image.png" width="40" height="40">New Posts</h2>
 
 <div style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
 <table style="border: none;">
 <tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/other-blog/posts/adv_opt/IMG_894ED9BDAD53-1.jpeg" alt="Image 1" width="250" height="150"> 
+    <td style="border: none;"><img src="https://sachit3022.github.io/other-blog/posts/product/website-builder.png" alt="Image 1" width="250" height="150"> 
 </td>
-    <td style="border: none; color:red; font-family:Monospace; font-size:2em;"> <a href="https://sachit3022.github.io/other-blog/posts/adv_opt/ " style="color:#36AE7C;"> Optimization Concepts for Adversarial Machine Learning.</a>  </td>
+    <td style="border: none; color:red; font-family:Monospace; font-size:2em;"> <a href="https://sachit3022.github.io/other-blog/posts/product/ " style="color:#36AE7C;"> Notes on building a product in public
+</a>  </td>
 </tr >
 <tr style="border: none;">
     <td style="border: none; "><img src="../images/image-1.png" alt="Image 1" width="250" height="150"></td>
