@@ -22,8 +22,8 @@ Algorithm fairness is another area where an appropriate training objective shoul
 I also care about the impact of ML and have worked on practical problems such as [how to train with large-scale multi-modal data with imbalance](https://sachit3022.github.io/files/Large%20scale%20predictive%20data.pdf). Also in [P-GPT](https://sachit3022.github.io/files/p_GPT.pdf), I strive to find the efficient configuration for training across multiple servers.
 
 ## 💀 Projects that did not materialize
-I used to work on **Adversarial Machine Learning**. I'm no longer interested in this area, although the optimization techniques are useful; it's always a catch-up game. However, I have written a blog post on [How to solve an Adversarial Optimization Problem?](https://sachit3022.github.io/other-blog/posts/adv_opt/).
-Also, **Machine Unlearning**: This involves removing training data from the model. I'm no longer interested in unlearning as I struggle to understand a metric to quantify it. However, we participated in the [NeurIPS 2023 challenge on Machine Unlearning](https://sachit3022.github.io/files/Unlearning.pdf)
+I used to work on Adversarial Machine Learning. I'm no longer interested in this area, although the optimization techniques are useful; it's always a catch-up game. However, I have written a blog post on [How to solve an Adversarial Optimization Problem?](https://sachit3022.github.io/other-blog/posts/adv_opt/).
+Also, Machine Unlearning: This involves removing training data from the model. I'm no longer interested in unlearning as I struggle to understand a metric to quantify it. However, we participated in the [NeurIPS 2023 challenge on Machine Unlearning](https://sachit3022.github.io/files/Unlearning.pdf)
 
 
 ## ☕  Apart from Research
@@ -55,7 +55,7 @@ Also, **Machine Unlearning**: This involves removing training data from the mode
 <tr style="border: none;">
     <td style="border: none;"><img src="https://sachit3022.github.io/other-blog/posts/product/website-builder.png" alt="Image 1" width="150" height="150"> 
 </td>
-    <td style="border: none; color:red; font-family:Monospace; font-size:1.5em;"> <a href="https://sachit3022.github.io/other-blog/posts/product/ " style="color:#36AE7C;"> Notes on building a product
+    <td style="border: none; color:red; font-family:Monospace; font-size:1.5em;"> <a href="https://sachit3022.github.io/other-blog/posts/product/ " style="color:#36AE7C;"> Notes on building a product.
 </a>  </td>
 </tr >
 <tr style="border: none;">
