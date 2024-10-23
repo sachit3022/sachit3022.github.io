@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.msu.edu) at [Michigan State University](http://www.msu.edu/) pursuing my master's degree under the supervision of [Dr. Vishnu Boddeti](http://vishnu.boddeti.net/). I am extremely lucky to have amazing colleagues at [Human Analysis Lab](https://hal.cse.msu.edu/). I received my bachelor's degree from [IIT, Guwahati](https://www.iitg.ac.in/). 
+Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.msu.edu) at [Michigan State University](http://www.msu.edu/) pursuing my master's degree under the supervision of [Dr. Vishnu Boddeti](http://vishnu.boddeti.net/). I am extremely lucky to have amazing colleagues at [Human Analysis Lab](https://hal.cse.msu.edu/). Previouly I received my bachelor's degree from [IIT, Guwahati](https://www.iitg.ac.in/). 
 
 
 ## 🎯 Research Objective
@@ -17,7 +17,7 @@ For instance, current state-of-the-art generative models often fail to generate 
 
 Classical machine learning algorithms are also prone to generalization problems. Models such as SVM and LDA rely on **spurious** features for classification. In [this](https://sachit3022.github.io/files/Pattern_Recognition.pdf) work, we provide a modified objective that is invariant to spurious features. This objective transforms the problem into a generalized eigenvalue problem with a closed-form solution. 
 
-Algorithm fairness is another area where an appropriate training objective should include a constraint on fairness, ensuring that models do not base decisions on sensitive attributes like gender. I have studied constrained optimization, and this work resulted in my research notes on [Constrained Optimization and Min-Max Problems](https://sachit3022.github.io/files/Optimisation.pdf). Additionally, I proposed a pre-processing adversarial pipeline to improve [fairness in LLMs](https://sachit3022.github.io/files/Fair_LLM.pdf). On a fun side, classic dynamic problems can be [formulated as constrained optimization](https://sachit3022.github.io/files/DP.pdf), and projected gradient descent can get you an approximate solution faster. 
+Algorithmic fairness is another area where an appropriate training objective should include a constraint on fairness, ensuring that models do not base decisions on sensitive attributes like gender. I have studied constrained optimization, and this work resulted in my research notes on [Constrained Optimization and Min-Max Problems](https://sachit3022.github.io/files/Optimisation.pdf). Additionally, I proposed a pre-processing adversarial pipeline to improve [fairness in LLMs](https://sachit3022.github.io/files/Fair_LLM.pdf). On a fun side, classic dynamic problems can be [formulated as constrained optimization](https://sachit3022.github.io/files/DP.pdf), and projected gradient descent can get you an approximate solution faster. 
 
 I also care about the impact of ML and have worked on practical problems such as [how to train with large-scale multi-modal data with imbalance](https://sachit3022.github.io/files/Large%20scale%20predictive%20data.pdf). Also in [P-GPT](https://sachit3022.github.io/files/p_GPT.pdf), I strive to find the efficient configuration for training across multiple servers.
 
