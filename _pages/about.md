@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.msu.edu) at [Michigan State University](http://www.msu.edu/) pursuing my master's degree under the supervision of [Dr. Vishnu Boddeti](http://vishnu.boddeti.net/). I am extremely lucky to have amazing colleagues at [Human Analysis Lab](https://hal.cse.msu.edu/). Previouly I received my bachelor's degree from [IIT, Guwahati](https://www.iitg.ac.in/). 
+Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.msu.edu) at [Michigan State University](http://www.msu.edu/) pursuing my master's degree under the supervision of [Dr. Vishnu Boddeti](http://vishnu.boddeti.net/). I am extremely lucky to have amazing colleagues at [Human Analysis Lab](https://hal.cse.msu.edu/). I hold a bachelor's degree from [IIT, Guwahati](https://www.iitg.ac.in/). 
 
 
 ## 🎯 Research Objective
