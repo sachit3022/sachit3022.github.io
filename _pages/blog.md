@@ -25,38 +25,19 @@ redirect_from:
 </div>
 </div>
 
-
 <div style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
-<h3>Solving Dynamic Programming questions using Integer Optimisation</h3>
+<h3>Parallel GPT</h3>
 <table >
 <tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/files/Dp.png" alt="Image 1" width="500" height="200"></td>
-    <td style="border: none;">  Dynamic programming are a set of algorithms that are applied to reduce the time complexity with memoization. We will pick 3 problems and walk step by step to improve the time complexity. The common aspect of the below problems is that the problem are explicitly to optimize some parameter either number of coins in coin change or profit in knapsack. </td>
+    <td style="border: none;"><img src="https://sachit3022.github.io/files/Parallel_strategy.png" alt="Image 1" width="1500" height="200"></td>
+    <td style="border: none;">We all know the impact of of chatGPT which are trained on massive internet data. The success of ChatGPT can be attributed to the amount we can parallelise, In fact the idea of Attention mechanism which is the crux of GPT was designed to overcome the sequential algorithm LSTM. Once we make the network parallel both the model and data parallel we can leverage the huge amount of data and train massive compute intensive algorithms.In this work, I will use model one attention block, which would constitute the fundamental element of the GPT. I will analyse the efficiency of the parallel strategies and uncover the reasons behind such numbers. Test some of the asymptotic limits of the parallel strategies and will raise some comments on the parallel strategies we have used. you will find the explanations on why we have chosen a particular strategy.</td>
 </tr >
-<td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/DP.pdf">PDF</a> [work in progress] </span> </p></td>
+<td style="border: none; text-align:center;"> <p> <a href="https://sachit3022.github.io/files/p_GPT.pdf">PDF</a> | <a href="https://github.com/sachit3022/pGPT"> Code </a> </p></td>
 
 </table>
 </div>
 </div>
-
-
-
-
-<div style="display: flex; align-items: center;">
-<div style="margin-left: 20px;">
-<h3>Machine Unlearning</h3>
-<table >
-<tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/files/Unlearning-logo.png" alt="Image 1" width="1500" height="200"></td>
-    <td style="border: none;">Our research delves into the critical challenge of data privacy and compliance with emerging regulations, specifically the EU’s General Data Protection Regulation (GDPR). Large AI models have shown tendencies to either hallucinate or inadvertently memorize training data, posing a significant threat to user privacy. In light of GDPR’s ”right to be forgotten”imperative, the necessity to eradicate any traces of sensitive user information is evident. Retraining models from scratch for each individual removal is impractical due to the substantial time and computational resources involved.This research centers on developing an efficient unlearning method, both in terms of time and memory, to effectively eliminate sensitive user data. These unlearning methods can extend their utility to the removal of noisy data points and the mitigation of hate speech.</td>
-</tr >
-<td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/Unlearning.pdf">PDF</a> </span> | <a href="https://github.com/sachit3022/unlearning"> Code  </a> <span style ="color:orange;"> </span> </p></td>
-
-</table>
-</div>
-</div>
-
 
 <div style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
@@ -81,17 +62,35 @@ overcome spurious correlations.</td>
 
 <div style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
-<h3>Parallel GPT</h3>
+<h3>Machine Unlearning</h3>
 <table >
 <tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/files/Parallel_strategy.png" alt="Image 1" width="1500" height="200"></td>
-    <td style="border: none;">We all know the impact of of chatGPT which are trained on massive internet data. The success of ChatGPT can be attributed to the amount we can parallelise, In fact the idea of Attention mechanism which is the crux of GPT was designed to overcome the sequential algorithm LSTM. Once we make the network parallel both the model and data parallel we can leverage the huge amount of data and train massive compute intensive algorithms.In this work, I will use model one attention block, which would constitute the fundamental element of the GPT. I will analyse the efficiency of the parallel strategies and uncover the reasons behind such numbers. Test some of the asymptotic limits of the parallel strategies and will raise some comments on the parallel strategies we have used. you will find the explanations on why we have chosen a particular strategy.</td>
+    <td style="border: none;"><img src="https://sachit3022.github.io/files/Unlearning-logo.png" alt="Image 1" width="1500" height="200"></td>
+    <td style="border: none;">Our research delves into the critical challenge of data privacy and compliance with emerging regulations, specifically the EU’s General Data Protection Regulation (GDPR). Large AI models have shown tendencies to either hallucinate or inadvertently memorize training data, posing a significant threat to user privacy. In light of GDPR’s ”right to be forgotten”imperative, the necessity to eradicate any traces of sensitive user information is evident. Retraining models from scratch for each individual removal is impractical due to the substantial time and computational resources involved.This research centers on developing an efficient unlearning method, both in terms of time and memory, to effectively eliminate sensitive user data. These unlearning methods can extend their utility to the removal of noisy data points and the mitigation of hate speech.</td>
 </tr >
-<td style="border: none; text-align:center;"> <p> <a href="https://sachit3022.github.io/files/p_GPT.pdf">PDF</a> | <a href="https://github.com/sachit3022/pGPT"> Code </a> </p></td>
+<td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/Unlearning.pdf">PDF</a> </span> | <a href="https://github.com/sachit3022/unlearning"> Code  </a> <span style ="color:orange;"> </span> </p></td>
 
 </table>
 </div>
 </div>
+
+
+
+<div style="display: flex; align-items: center;">
+<div style="margin-left: 20px;">
+<h3>Solving Dynamic Programming questions using Integer Optimisation</h3>
+<table >
+<tr style="border: none;">
+    <td style="border: none;"><img src="https://sachit3022.github.io/files/Dp.png" alt="Image 1" width="500" height="200"></td>
+    <td style="border: none;">  Dynamic programming are a set of algorithms that are applied to reduce the time complexity with memoization. We will pick 3 problems and walk step by step to improve the time complexity. The common aspect of the below problems is that the problem are explicitly to optimize some parameter either number of coins in coin change or profit in knapsack. </td>
+</tr >
+<td style="border: none; text-align:center;"> <p><span style ="color:orange;"> <a href="https://sachit3022.github.io/files/DP.pdf">PDF</a> [work in progress] </span> </p></td>
+
+</table>
+</div>
+</div>
+
+
 <div style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
 <h3>Constrained Optimisation</h3>
