@@ -80,10 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Sachit"
+  name             : "Sachit Gaudi"
   avatar           : "sachit.jpg"
-  bio              : "Second year computer science masters student at Michigan State University."
+  bio              : Final year computer science masters student at Michigan State University.
   location         : "MI,US"
+  resume           : https://sachit3022.github.io/files/Sachit_Resume.pdf
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
@@ -102,7 +103,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : gaudisachit
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :

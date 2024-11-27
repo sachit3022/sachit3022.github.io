@@ -40,11 +40,15 @@ Also, Machine Unlearning: This involves removing training data from the model. I
 </h2>
 
 
-<p><strong>If you're interested in my research, I'm always open to collaborations!</strong></p> 
-<p style="color:red; font-weight:bold;">
-  💼 I'm hitting the job market in December 2024! Feel free to drop me an email at 
-  <a href="mailto:gaudisac@msu.edu">gaudisac@msu.edu</a>. I'll be sure to get back to you quickly!
-</p>
+<p><strong>If you're interested in my research, I'm always open to collaborations!</strong></p>
+
+<h2>
+  <img src="images/gs.png" width="40" height="40" alt="Collaboration Icon"> Publications under submission
+</h2>
+
+
+<p>If you're interested in my research, I'm always open to collaborations!</p>
+
 
 
 <h2><img src="https://sachit3022.github.io/images/image.png" width="40" height="40">New Posts</h2>
