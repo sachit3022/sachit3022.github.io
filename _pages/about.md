@@ -43,11 +43,11 @@ Also, Machine Unlearning: This involves removing training data from the model. I
 <p><strong>If you're interested in my research, I'm always open to collaborations!</strong></p>
 
 <h2>
-  <img src="images/gs.png" width="40" height="40" alt="Collaboration Icon"> Publications under submission
+  <img src="images/gs.png" width="40" height="40" alt="Collaboration Icon"> Publications
 </h2>
 
 
-<p>If you're interested in my research, I'm always open to collaborations!</p>
+<p><b>S. Gaudi</b>, G. Sreekumar, V. Boddeti, CoInD: Enabling Logical Compositions in Diffusion Models,  <b>ICLR 2025 (Under review)</b> </p>
 
 
 
