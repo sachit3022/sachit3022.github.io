@@ -1,30 +1,32 @@
 ---
 layout: archive
-title: "Blog"
 permalink: /blog/
+title: 🎯 Research Objective
 author_profile: true
 redirect_from:
   - /blog
 ---
 
+My primary research goal is to improve the generalization of machine learning systems. This can be summarized by the phrase, “You get what you train for.” An incorrect objective will lead to poor generalization, even when a large amount of data is applied to a problem. My research focuses on defining the correct objectives, thereby improving the ability of machine learning models to generalize effectively.
+
+For instance, current state-of-the-art generative models often fail to generate an image of “a red polar bear” or edit the color of a polar bear in an image without changing other aspects. Why do current SOTA models struggle? The objective of diffusion models is to learn the probability of the observed data distribution. However, in the observational data, these seemingly independent concepts of color and animal structure are rather dependent. Therefore, if you are modeling the incorrect observational data, you are bound to get a model that is incorrect. In our ICLR 2025 work, we correct the training objective of diffusion models to reflect the independence that allows us to modify one attribute without affecting the others.
+
+Classical machine learning algorithms are also prone to generalization problems. Models such as SVM and LDA rely on **spurious** features for classification. In <a href="javascript:void(0)" onclick="scrollToSection('pattern-unrecognition')">Pattern Unrecognition</a> work, we provide a modified objective that is invariant to spurious features. This objective transforms the problem into a generalized eigenvalue problem with a closed-form solution. 
+
+Algorithmic fairness is another area where an appropriate training objective should include a constraint on fairness, ensuring that models do not base decisions on sensitive attributes like gender. I have studied constrained optimization, and this work resulted in my research notes on <a href="javascript:void(0)" onclick="scrollToSection('constrained-optimisation')">Constrained Optimization and Min-Max Problems</a>. Additionally, I proposed a pre-processing adversarial pipeline to improve <a href="javascript:void(0)" onclick="scrollToSection('fair-llm')">fairness in LLMs</a>. On a fun side, classic dynamic problems can be <a href="javascript:void(0)" onclick="scrollToSection('dp')">formulated as constrained optimization</a>, and projected gradient descent can get you an approximate solution faster. 
+
+I also care about the impact of ML and have worked on practical problems such as [how to train with large-scale multi-modal data with imbalance](https://sachit3022.github.io/files/Large%20scale%20predictive%20data.pdf). Also in <a href="javascript:void(0)" onclick="scrollToSection('pgpt')">P-GPT</a>. I strive to find the efficient configuration for training across multiple servers.
 
 
-<div style="display: flex; align-items: center;">
-<div style="margin-left: 20px;">
-<h3>COIND: ENABLING LOGICAL COMPOSITIONS IN DIFFUSION MODELS</h3>
-<table >
-<tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/files/CoInD.png" alt="Image 1" width="1500" height="200"></td>
-    <td style="border: none;"> How can we learn generative models to sample data with arbitrary logical compositions of statistically independent attributes? The prevailing solution is to sample from distributions expressed as a composition of attributes' conditional marginal distributions under the assumption that they are statistically independent. This paper shows that standard conditional diffusion models violate this assumption, even when all attribute compositions are observed during training. And, this violation is significantly more severe when only a subset of the compositions is observed. We propose CoInD to address this problem. It explicitly enforces statistical independence between the conditional marginal distributions by minimizing Fisher’s divergence between the joint and marginal distributions. The theoretical advantages of CoInD are reflected in both qualitative and quantitative experiments, demonstrating a significantly more faithful and controlled generation of samples for arbitrary logical compositions of attributes. The benefit is more pronounced for scenarios that current solutions relying on the assumption of conditionally independent marginals struggle with, namely, logical compositions involving the NOT operation and when only a subset of compositions are observed during training.</td>
-</tr >
-<td style="border: none; text-align:center;"> <span style ="color:orange;"> Under Review (ICLR 2025) </span> </td>
-
-</table>
-</div>
-</div>
+I used to work on Adversarial Machine Learning. I'm no longer interested in this area, although the optimization techniques are useful; it's always a catch-up game. However, I have written a blog post on [How to solve an Adversarial Optimization Problem?](https://sachit3022.github.io/other-blog/posts/adv_opt/).
+Also, Machine Unlearning: This involves removing training data from the model. I'm no longer interested in unlearning as I struggle to understand a metric to quantify it. However, we participated in the <a href="javascript:void(0)" onclick="scrollToSection('machine-unlearning')">NeurIPS 2023 challenge on Machine Unlearning</a>
 
 
-<div style="display: flex; align-items: center;">
+
+
+
+
+<div id="fair-llm" style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
 <h3>Adversarial Techniques for Improving Fairness in LLMs</h3>
 <table >
@@ -41,7 +43,7 @@ redirect_from:
 </div>
 </div>
 
-<div style="display: flex; align-items: center;">
+<div id="pgpt" style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
 <h3>Parallel GPT</h3>
 <table >
@@ -55,7 +57,7 @@ redirect_from:
 </div>
 </div>
 
-<div style="display: flex; align-items: center;">
+<div id="pattern-unrecognition" style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
 <h3>Pattern Unrecognition</h3>
 <table >
@@ -76,7 +78,7 @@ overcome spurious correlations.</td>
 </div>
 </div>
 
-<div style="display: flex; align-items: center;">
+<div id="machine-unlearning" style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
 <h3>Machine Unlearning</h3>
 <table >
@@ -92,7 +94,7 @@ overcome spurious correlations.</td>
 
 
 
-<div style="display: flex; align-items: center;">
+<div id="dp" style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
 <h3>Solving Dynamic Programming questions using Integer Optimisation</h3>
 <table >
@@ -107,7 +109,7 @@ overcome spurious correlations.</td>
 </div>
 
 
-<div style="display: flex; align-items: center;">
+<div id="constrained-optimisation" style="display: flex; align-items: center;">
 <div style="margin-left: 20px;">
 <h3>Constrained Optimisation</h3>
 <table >
@@ -121,5 +123,14 @@ overcome spurious correlations.</td>
 </div>
 </div>
 
+
+<script>
+  function scrollToSection(sectionId) {
+    var element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+</script>
 
 

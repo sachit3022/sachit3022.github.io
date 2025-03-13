@@ -7,23 +7,125 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.msu.edu) at [Michigan State University](http://www.msu.edu/) pursuing my master's degree under the supervision of [Dr. Vishnu Boddeti](http://vishnu.boddeti.net/). I am extremely lucky to have amazing colleagues at [Human Analysis Lab](https://hal.cse.msu.edu/). I hold a bachelor's degree from [IIT, Guwahati](https://www.iitg.ac.in/). 
+Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.msu.edu) at [Michigan State University](http://www.msu.edu/) pursuing my master's degree under the supervision of [Dr. Vishnu Boddeti](http://vishnu.boddeti.net/).  I am extremely lucky to have amazing colleagues at [Human Analysis Lab](https://hal.cse.msu.edu/). I hold a bachelor's degree from [IIT, Guwahati](https://www.iitg.ac.in/). I'm proud of my research experience, including the attempts that didn’t work out. You can read more about them on my [blog](https://sachit3022.github.io/blog/). After persistent work on fairness, generalization, and spurious correlations, I got my first ICLR paper on <a href="javascript:void(0)" onclick="scrollToSection('pub')">``Compositionality in Diffusion models``</a> 
+<h2>
+  <img src="images/collaboration.png" width="40" height="40" alt="Collaboration Icon"> Collaborations
+</h2>
 
 
-## 🎯 Research Objective
-My primary research goal is to improve the generalization of machine learning systems. This can be summarized by the phrase, "You get what you train for." An incorrect objective will lead to poor generalization, even when a large amount of data is applied to a problem. My research focuses on defining the correct objectives, thereby improving the ability of machine learning models to generalize effectively.
+<p>I'm always open to collaborating with fellow researchers and industry partners. While my primary research is on compositionality and generalization in generative models, I'm open to exploring new topics and innovative ideas.</p>
 
-For instance, current state-of-the-art generative models often fail to generate an image of "a red polar bear" or edit the color of a polar bear in an image without changing other aspects. Why do current SOTA models struggle? The objective of **diffusion models**, as discussed in my blog on their [probabilistic perspective](https://sachit3022.github.io/other-blog/posts/diffusion/), is to learn the probability of the observed data distribution. However, in the observational data, these seemingly independent concepts of color and animal structure are rather dependent. Therefore, if you are modeling the incorrect observational data, you are bound to get a model that is incorrect. In our ICLR 2025 submission (under review), we correct the training objective of diffusion models to reflect the independence that allows us to modify one attribute without affecting the others.
+<h2 id='pub'>
+  <img src="images/gs.png" width="40" height="40" alt="GS Icon"> Publications
+</h2>
 
-Classical machine learning algorithms are also prone to generalization problems. Models such as SVM and LDA rely on **spurious** features for classification. In [this](https://sachit3022.github.io/files/Pattern_Recognition.pdf) work, we provide a modified objective that is invariant to spurious features. This objective transforms the problem into a generalized eigenvalue problem with a closed-form solution. 
 
-Algorithmic fairness is another area where an appropriate training objective should include a constraint on fairness, ensuring that models do not base decisions on sensitive attributes like gender. I have studied constrained optimization, and this work resulted in my research notes on [Constrained Optimization and Min-Max Problems](https://sachit3022.github.io/files/Optimisation.pdf). Additionally, I proposed a pre-processing adversarial pipeline to improve [fairness in LLMs](https://sachit3022.github.io/files/Fair_LLM.pdf). On a fun side, classic dynamic problems can be [formulated as constrained optimization](https://sachit3022.github.io/files/DP.pdf), and projected gradient descent can get you an approximate solution faster. 
+<style>
+  .hidden {
+    display: none;
+  }
+</style>
 
-I also care about the impact of ML and have worked on practical problems such as [how to train with large-scale multi-modal data with imbalance](https://sachit3022.github.io/files/Large%20scale%20predictive%20data.pdf). Also in [P-GPT](https://sachit3022.github.io/files/p_GPT.pdf), I strive to find the efficient configuration for training across multiple servers.
+<ol style="list-style: none; margin: 0; padding: 0; font-size: 0.9rem;">
+  <li>
+    <div style="display: flex; align-items: stretch
+    ;  background-color: #ffffff; color: #000000;">
+      <!-- Image Container (20%) -->
+      <div style="flex: 0 0 20%; position: relative; text-align: center; height: 150px; margin: 0; align-self: flex-start;">
+        <!-- Badge over the image -->
+        <div style="position: absolute; top: 5px; left: 5px;">
+          <abbr class="badge badge-info" style="background-color: #007bff; color: #fff; padding: 5px 10px; border-radius: 4px;">
+            ICLR'25
+          </abbr>
+        </div>
+        <!-- Image resized evenly and cropped from the center -->
+        <img
+          src="files/CoInD.png"
+          alt="Paper Preview"
+          style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; margin: 0; block; margin: 0;"
+          class="teaser img-fluid"
+        >
+      </div>
+      <!-- Text Container (80%) -->
+      <div style="flex: 0 0 80%; padding: 0 10px;">
+        <!-- Title -->
+        <div class="title" style="font-size: 1.0rem; font-weight: 600; margin-bottom: 5px;">
+          CoInD: Enabling Logical Compositions in Diffusion Models
+        </div>
+        <!-- Authors -->
+        <div class="author" style="margin-bottom: 5px;">
+          <em>Sachit Gaudi</em>, Gautam Sreekumar, Vishnu Boddeti
+        </div>
+        <!-- Periodical -->
+        <div class="periodical" style="margin-bottom: 5px;">
+          <em>ICLR, 2025</em>
+        </div>
+        <!-- Links/Buttons -->
+        <div class="links" style="margin-bottom: 5px;">
+          <a class="btn btn-sm btn-outline-dark mr-2" role="button" onclick="toggleAbstract()">ABS</a>
+          <a
+            href="https://openreview.net/forum?id=cCRlEvjrx4"
+            class="btn btn-sm btn-outline-dark mr-2"
+            role="button"
+            target="_blank" rel="noopener noreferrer"
+          >PAPER</a>
+          <a
+            href="https://github.com/sachit3022/compositional-generation"
+            class="btn btn-sm btn-outline-dark"
+            role="button"
+            target="_blank" rel="noopener noreferrer"
+          >CODE</a>
+          <a
+            href="https://sachit3022.github.io/logical-compositionality"
+            class="btn btn-sm btn-outline-dark"
+            role="button"
+            target="_blank" rel="noopener noreferrer"
+          >PROJECT</a>
+          <a
+            href="https://sachit3022.github.io/logical-compositionality"
+            class="btn btn-sm btn-outline-dark"
+            role="button"
+            target="_blank" rel="noopener noreferrer"
+          >TALK</a>
+          <a class="btn btn-sm btn-outline-dark mr-2" role="button" onclick="toggleBib()">BIB</a>
+        </div>
+        <!-- Hidden Abstract -->
+        <div id="abstract" class="abstract hidden" style="font-size: 0.85rem; line-height: 1.5; border-top: 1px solid #ddd; padding-top: 10px;">
+          <p>
+            How can we learn generative models to sample data with arbitrary logical compositions of statistically independent attributes? The prevailing solution is to sample from distributions expressed as a composition of attributes' conditional marginal distributions under the assumption that they are statistically independent. This paper shows that standard conditional diffusion models violate this assumption, even when all attribute compositions are observed during training. And, this violation is significantly more severe when only a subset of the compositions is observed. We propose CoInD to address this problem. It explicitly enforces statistical independence between the conditional marginal distributions by minimizing Fisher’s divergence between the joint and marginal distributions. The theoretical advantages of CoInD are reflected in both qualitative and quantitative experiments, demonstrating a significantly more faithful and controlled generation of samples for arbitrary logical compositions of attributes. The benefit is more pronounced for scenarios that current solutions relying on the assumption of conditionally independent marginals struggle with, namely, logical compositions involving the NOT operation and when only a subset of compositions are observed during training.
+          </p>
+        </div>
+        <!-- Hidden BibTeX -->
+        <div id="bib" class="bib hidden" style="font-size: 0.85rem; line-height: 1.5; border-top: 1px solid #ddd; padding-top: 10px;">
+          <p>
+            @inproceedings{gaudi2025coind,<br>
+            &nbsp;&nbsp;title={CoInD: Enabling Logical Compositions in Diffusion Models},<br>
+            &nbsp;&nbsp;author={Sachit Gaudi and Gautam Sreekumar and Vishnu Boddeti},<br>
+            &nbsp;&nbsp;booktitle={The Thirteenth International Conference on Learning Representations},<br>
+            &nbsp;&nbsp;year={2025},<br>
+            &nbsp;&nbsp;url={https://openreview.net/forum?id=cCRlEvjrx4}<br>
+            }
+          </p>
+        </div>
+      </div>
+    </div>
+  </li>
+</ol>
 
-## 💀 Projects that did not materialize
-I used to work on Adversarial Machine Learning. I'm no longer interested in this area, although the optimization techniques are useful; it's always a catch-up game. However, I have written a blog post on [How to solve an Adversarial Optimization Problem?](https://sachit3022.github.io/other-blog/posts/adv_opt/).
-Also, Machine Unlearning: This involves removing training data from the model. I'm no longer interested in unlearning as I struggle to understand a metric to quantify it. However, we participated in the [NeurIPS 2023 challenge on Machine Unlearning](https://sachit3022.github.io/files/Unlearning.pdf)
+<script>
+  function toggleAbstract() {
+    var abstractBlock = document.getElementById("abstract");
+    abstractBlock.classList.toggle("hidden");
+  }
+  function toggleBib() {
+    var bibBlock = document.getElementById("bib");
+    bibBlock.classList.toggle("hidden");
+  }
+</script>
+
+
+
+
 
 
 ## ☕  Apart from Research
@@ -35,19 +137,6 @@ Also, Machine Unlearning: This involves removing training data from the model. I
 💡 I love building products. Currently working on an [image editing tool](https://sachit3022.github.io/other-blog/posts/product/).
 
 
-<h2>
-  <img src="images/collaboration.png" width="40" height="40" alt="Collaboration Icon"> Collaborations
-</h2>
-
-
-<p><strong>If you're interested in my research, I'm always open to collaborations!</strong></p>
-
-<h2>
-  <img src="images/gs.png" width="40" height="40" alt="Collaboration Icon"> Publications
-</h2>
-
-
-<p><b>S. Gaudi</b>, G. Sreekumar, V. Boddeti, CoInD: Enabling Logical Compositions in Diffusion Models,  <b>ICLR 2025 (Under review)</b> </p>
 
 
 
@@ -57,9 +146,9 @@ Also, Machine Unlearning: This involves removing training data from the model. I
 <div style="margin-left: 20px;">
 <table style="border: none;">
 <tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/other-blog/posts/product/website-builder.png" alt="Image 1" width="150" height="150"> 
+    <td style="border: none;"><img src="https://sachit3022.github.io/other-blog/posts/adv_opt/IMG_894ED9BDAD53-1.jpeg" alt="Image 1" width="150" height="150"> 
 </td>
-    <td style="border: none; color:red; font-family:Monospace; font-size:1.5em;"> <a href="https://sachit3022.github.io/other-blog/posts/product/ " style="color:#36AE7C;"> Notes on building a product.
+    <td style="border: none; color:red; font-family:Monospace; font-size:1.5em;"> <a href="https://sachit3022.github.io/other-blog/posts/adv_opt/ " style="color:#36AE7C;"> Solving an Adverserial Optimisation problem.
 </a>  </td>
 </tr >
 <tr style="border: none;">
@@ -70,3 +159,13 @@ Also, Machine Unlearning: This involves removing training data from the model. I
 </table>
 </div>
 </div>
+
+
+<script>
+  function scrollToSection(sectionId) {
+    var element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+</script>

@@ -83,11 +83,11 @@ author:
   name             : "Sachit Gaudi"
   avatar           : "sachit.jpg"
   bio              : Final year computer science masters student at Michigan State University.
-  location         : "MI,US"
-  resume           : https://sachit3022.github.io/files/Sachit_Resume.pdf
+  location         : 
+  resume           : 
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=XNvAeTIAAAAJ&hl=en&oi=ao"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
