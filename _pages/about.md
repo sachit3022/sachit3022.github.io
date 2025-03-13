@@ -27,9 +27,9 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
 </style>
 
 <ol style="list-style: none; margin: 0; padding: 0; font-size: 0.9rem;">
+  <!-- First List Item -->
   <li>
-    <div style="display: flex; align-items: stretch
-    ;  background-color: #ffffff; color: #000000;">
+    <div style="display: flex; align-items: stretch; background-color: #ffffff; color: #000000;">
       <!-- Image Container (20%) -->
       <div style="flex: 0 0 20%; position: relative; text-align: center; height: 150px; margin: 0; align-self: flex-start;">
         <!-- Badge over the image -->
@@ -42,7 +42,7 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
         <img
           src="files/CoInD.png"
           alt="Paper Preview"
-          style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; margin: 0; block; margin: 0;"
+          style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; margin: 0;"
           class="teaser img-fluid"
         >
       </div>
@@ -62,7 +62,7 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
         </div>
         <!-- Links/Buttons -->
         <div class="links" style="margin-bottom: 5px;">
-          <a class="btn btn-sm btn-outline-dark mr-2" role="button" onclick="toggleAbstract()">ABS</a>
+          <a class="btn btn-sm btn-outline-dark mr-2" role="button" onclick="toggleAbstract(this)">ABS</a>
           <a
             href="https://openreview.net/forum?id=cCRlEvjrx4"
             class="btn btn-sm btn-outline-dark mr-2"
@@ -87,7 +87,7 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
             role="button"
             target="_blank" rel="noopener noreferrer"
           >TALK</a>
-          <a class="btn btn-sm btn-outline-dark mr-2" role="button" onclick="toggleBib()">BIB</a>
+          <a class="btn btn-sm btn-outline-dark mr-2" role="button" onclick="toggleBib(this)">BIB</a>
         </div>
         <!-- Hidden Abstract -->
         <div id="abstract" class="abstract hidden" style="font-size: 0.85rem; line-height: 1.5; border-top: 1px solid #ddd; padding-top: 10px;">
@@ -110,19 +110,99 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
       </div>
     </div>
   </li>
+
+  <!-- Second List Item (Duplicate) -->
+  <li>
+    <div style="display: flex; align-items: stretch; background-color: #ffffff; color: #000000;">
+      <!-- Image Container (20%) -->
+      <div style="flex: 0 0 20%; position: relative; text-align: center; height: 150px; margin: 0; align-self: flex-start;">
+        <!-- Badge over the image -->
+        <div style="position: absolute; top: 5px; left: 5px;">
+          <abbr class="badge badge-info" style="background-color: #808080; color: #fff; padding: 5px 10px; border-radius: 4px;">
+            ICLRW'25
+          </abbr>
+        </div>
+        <!-- Image resized evenly and cropped from the center -->
+        <img
+          src="assets/images/compose.png"
+          alt="Paper Preview"
+          style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; margin: 0;"
+          class="teaser img-fluid"
+        >
+      </div>
+      <!-- Text Container (80%) -->
+      <div style="flex: 0 0 80%; padding: 0 10px;">
+        <!-- Title -->
+        <div class="title" style="font-size: 1.0rem; font-weight: 600; margin-bottom: 5px;">
+          	Compositional World Knowledge leads to High Utility Synthetic data
+        </div>
+        <!-- Authors -->
+        <div class="author" style="margin-bottom: 5px;">
+          <em>Sachit Gaudi</em>, Gautam Sreekumar, Vishnu Boddeti
+        </div>
+        <!-- Periodical -->
+        <div class="periodical" style="margin-bottom: 5px;">
+          <em>SynthData, ICLRW, 2025</em>
+        </div>
+        <!-- Links/Buttons -->
+        <div class="links" style="margin-bottom: 5px;">
+          <a class="btn btn-sm btn-outline-dark mr-2" role="button" onclick="toggleAbstract(this)">ABS</a>
+          <a
+            href="https://openreview.net/forum?id=e9i1Frx5Kc"
+            class="btn btn-sm btn-outline-dark mr-2"
+            role="button"
+            target="_blank" rel="noopener noreferrer"
+          >PAPER</a>
+          <a
+            href="https://github.com/sachit3022/compositional-generation"
+            class="btn btn-sm btn-outline-dark"
+            role="button"
+            target="_blank" rel="noopener noreferrer"
+          >CODE</a>
+          <a class="btn btn-sm btn-outline-dark mr-2" role="button" onclick="toggleBib(this)">BIB</a>
+        </div>
+        <!-- Hidden Abstract -->
+        <div id="abstract" class="abstract hidden" style="font-size: 0.85rem; line-height: 1.5; border-top: 1px solid #ddd; padding-top: 10px;">
+          <p>
+            Machine learning systems struggle with robustness, under subpopulation shifts. This problem becomes especially pronounced in scenarios where only a subset of attribute combinations is observed during training—a severe form of subpopulation shift, referred as compositional shift. To address this problem, we ask the following question: Can we improve the robustness by training on synthetic data, spanning all possible attribute combinations? We first show that training of conditional diffusion models on limited data lead to incorrect underlying distribution. Therefore, synthetic data sampled from such models will result in unfaithful samples and does not lead to improve performance of downstream machine learning systems. To address this problem, we propose COIND to reflect the compositional nature of the world by enforcing conditional independence through minimizing Fisher’s divergence between joint and marginal distributions. We demonstrate that synthetic data generated by COIND is faithful and this translates to state-of-the-art worst-group accuracy on compositional shift tasks on CelebA.
+          </p>
+        </div>
+        <!-- Hidden BibTeX -->
+        <div id="bib" class="bib hidden" style="font-size: 0.85rem; line-height: 1.5; border-top: 1px solid #ddd; padding-top: 10px;">
+          <p>
+            @inproceedings{
+                  gaudi2025compositional,
+                  title={Compositional World Knowledge leads to High Utility Synthetic data},
+                  author={Sachit Gaudi and Gautam Sreekumar and Vishnu Boddeti},
+                  booktitle={Will Synthetic Data Finally Solve the Data Access Problem?},
+                  year={2025},
+                  url={https://openreview.net/forum?id=e9i1Frx5Kc}
+            }
+          </p>
+        </div>
+      </div>
+    </div>
+  </li>
 </ol>
 
+
 <script>
-  function toggleAbstract() {
-    var abstractBlock = document.getElementById("abstract");
-    abstractBlock.classList.toggle("hidden");
+  function toggleAbstract(button) {
+    const listItem = button.closest('li');
+    const abstract = listItem.querySelector('.abstract');
+    if (abstract) {
+      abstract.classList.toggle('hidden');
+    }
   }
-  function toggleBib() {
-    var bibBlock = document.getElementById("bib");
-    bibBlock.classList.toggle("hidden");
+
+  function toggleBib(button) {
+    const listItem = button.closest('li');
+    const bib = listItem.querySelector('.bib');
+    if (bib) {
+      bib.classList.toggle('hidden');
+    }
   }
 </script>
-
 
 
 
@@ -142,18 +222,18 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
 
 <h2><img src="https://sachit3022.github.io/images/image.png" width="40" height="40">New Posts</h2>
 
-<div style="display: flex; align-items: center;">
-<div style="margin-left: 20px;">
+<div style="display: flex; align-items: left;">
+<div style="margin-left: 10px;">
 <table style="border: none;">
 <tr style="border: none;">
-    <td style="border: none;"><img src="https://sachit3022.github.io/other-blog/posts/adv_opt/IMG_894ED9BDAD53-1.jpeg" alt="Image 1" width="150" height="150"> 
+    <td style="border: none;"><img src="https://sachit3022.github.io/other-blog/posts/adv_opt/IMG_894ED9BDAD53-1.jpeg" alt="Image 1" width="75" height="75"> 
 </td>
-    <td style="border: none; color:red; font-family:Monospace; font-size:1.5em;"> <a href="https://sachit3022.github.io/other-blog/posts/adv_opt/ " style="color:#36AE7C;"> Solving an Adverserial Optimisation problem.
+    <td style="border: none; color:red; font-family:Monospace; font-size:1.0em;"> <a href="https://sachit3022.github.io/other-blog/posts/adv_opt/ " style="color:#36AE7C;"> Solving an Adverserial Optimisation problem
 </a>  </td>
 </tr >
 <tr style="border: none;">
-    <td style="border: none; "><img src="../images/image-1.png" alt="Image 1" width="150" height="150"></td>
-    <td style="border: none; font-family:Monospace; font-size:1.5em "> <a href="https://sachit3022.github.io/other-blog/posts/running/ " style="color:#36AE7C;">How Running Keeps Me Grounded.</a>  </td>
+    <td style="border: none; "><img src="../images/image-1.png" alt="Image 1" width="75" height="75"></td>
+    <td style="border: none; font-family:Monospace; font-size:1.0em "> <a href="https://sachit3022.github.io/other-blog/posts/running/ " style="color:#36AE7C;">How Running Keeps Me Grounded</a>  </td>
 </tr >
 
 </table>
