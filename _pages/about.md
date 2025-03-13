@@ -8,16 +8,16 @@ redirect_from:
   - /about.html
 ---
 Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.msu.edu) at [Michigan State University](http://www.msu.edu/) pursuing my master's degree under the supervision of [Dr. Vishnu Boddeti](http://vishnu.boddeti.net/).  I am extremely lucky to have amazing colleagues at [Human Analysis Lab](https://hal.cse.msu.edu/). I hold a bachelor's degree from [IIT, Guwahati](https://www.iitg.ac.in/). I'm proud of my research experience, including the attempts that didn’t work out. You can read more about them on my [blog](https://sachit3022.github.io/blog/). After persistent work on fairness, generalization, and spurious correlations, I got my first ICLR paper on <a href="javascript:void(0)" onclick="scrollToSection('pub')">``Compositionality in Diffusion models``</a> 
-<h2>
+<h3>
   <img src="images/collaboration.png" width="40" height="40" alt="Collaboration Icon"> Collaborations
-</h2>
+</h3>
 
 
 <p>I'm always open to collaborating with fellow researchers and industry partners. While my primary research is on compositionality and generalization in generative models, I'm open to exploring new topics and innovative ideas.</p>
 
-<h2 id='pub'>
+<h3 id='pub'>
   <img src="images/gs.png" width="40" height="40" alt="GS Icon"> Publications
-</h2>
+</h3>
 
 
 <style>
@@ -26,7 +26,7 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
   }
 </style>
 
-<ol style="list-style: none; margin: 0; padding: 0; font-size: 0.9rem;">
+<ol style="list-style: none; margin: 0; padding: 15px; font-size: 0.9rem;">
   <!-- First List Item -->
   <li>
     <div style="display: flex; align-items: stretch; background-color: #ffffff; color: #000000;">
@@ -220,7 +220,7 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
 
 
 
-<h2><img src="https://sachit3022.github.io/images/image.png" width="40" height="40">New Posts</h2>
+<h3><img src="https://sachit3022.github.io/images/image.png" width="40" height="40">New Posts</h3>
 
 <div style="display: flex; align-items: left;">
 <div style="margin-left: 10px;">
