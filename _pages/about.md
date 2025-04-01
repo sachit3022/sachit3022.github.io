@@ -82,11 +82,17 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
             target="_blank" rel="noopener noreferrer"
           >PROJECT</a>
           <a
-            href="https://sachit3022.github.io/logical-compositionality"
+            href="https://recorder-v3.slideslive.com/#/share?share=99828&s=1c3f035f-c4a3-48c1-9fd0-18e51bc20688"
             class="btn btn-sm btn-outline-dark"
             role="button"
             target="_blank" rel="noopener noreferrer"
           >TALK</a>
+          <a
+            href="https://docs.google.com/presentation/d/19MsAOjIaoSHO3evMQzvNE7y8CHiO95k3u_J2cskNy-0/edit?usp=sharing"
+            class="btn btn-sm btn-outline-dark"
+            role="button"
+            target="_blank" rel="noopener noreferrer"
+          >SLIDES</a>
           <a class="btn btn-sm btn-outline-dark mr-2" role="button" onclick="toggleBib(this)">BIB</a>
         </div>
         <!-- Hidden Abstract -->
