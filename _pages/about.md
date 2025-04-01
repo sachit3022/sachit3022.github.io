@@ -130,7 +130,7 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
         </div>
         <!-- Image resized evenly and cropped from the center -->
         <img
-          src="assets/images/compose.pdf"
+          src="assets/images/compose.jpg"
           alt="Paper Preview"
           style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; margin: 0;"
           class="teaser img-fluid"
