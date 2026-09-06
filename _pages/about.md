@@ -25,7 +25,7 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
 
 🧑‍🏫 I teach programming ([CSE 232](https://sachit3022.github.io/teaching/2023-fall)) at Michigan State University. 
 
-⛳ I enjoy [running](https://sachit3022.github.io/other-blog/posts/running/) on rare sunny days. When the weather turns gloomy, I settle in with a cup of coffee ☕, pick up a [book](https://www.goodreads.com/user/show/112375149-gaudi-sachit), work through math problems, and occasionally revisit <a href="https://leetcode.com/u/sachit3022/"><s>LeetCode</s></a>.
+⛳ I enjoy [running](https://sachit3022.github.io/other-blog/posts/running/) on rare sunny days on the East Coast. When the weather turns gloomy, I settle in with a cup of coffee ☕, pick up a [book](https://www.goodreads.com/user/show/112375149-gaudi-sachit), work through math problems, and occasionally revisit <a href="https://leetcode.com/u/sachit3022/"><s>LeetCode</s></a>.
 
 <h3><img src="https://sachit3022.github.io/images/image.png" width="40" height="40">New Posts</h3>
 
