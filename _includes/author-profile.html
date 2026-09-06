@@ -18,9 +18,6 @@
     <div class="author__content">
       <h3 class="author__name">{{ author.name }}</h3>
       {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-    <p style="color:red; font-weight:bold;">
-      💼 I'm hitting the job market in May 2025! Feel free to drop me an email at <a href="mailto:gaudisac@msu.edu">gaudisac@msu.edu</a>
-    </p>
   </div>
   </div>
 
@@ -53,10 +50,10 @@
         <li><a href="https://plus.google.comg/+{{ author.google_plus }}"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i> Google+</a></li>
       {% endif %}
       {% if author.twitter %}
-      <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      <li><a href="https://twitter.com/{{ author.twitter }}"><img class="author__url-icon" src="{{ base_path }}/images/twitter-logo.svg" alt="" aria-hidden="true" style="width: 14px; height: 14px; margin-right: 4px; vertical-align: -2px;"> Twitter</a></li>
       {% endif %}
       {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><img class="author__url-icon" src="{{ base_path }}/images/linkedin-logo.svg" alt="" aria-hidden="true" style="width: 14px; height: 14px; margin-right: 4px; vertical-align: -2px;"> LinkedIn</a></li>
       {% endif %}
       {% if author.resume %}
       <li><a href="https://bitbucket.org/{{ author.resume }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Resume</a></li>
@@ -74,7 +71,7 @@
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
       {% endif %}
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+        <li><a href="https://github.com/{{ author.github }}"><img class="author__url-icon" src="{{ base_path }}/images/github-logo.svg" alt="" aria-hidden="true" style="width: 14px; height: 14px; margin-right: 4px; vertical-align: -2px;"> Github</a></li>
       {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
@@ -113,7 +110,7 @@
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
       {% endif %}
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+        <li><a href="{{ author.googlescholar }}"><img class="author__url-icon" src="{{ base_path }}/images/google-scholar-logo.svg" alt="" aria-hidden="true" style="width: 14px; height: 14px; margin-right: 4px; vertical-align: -2px;"> Google Scholar</a></li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>

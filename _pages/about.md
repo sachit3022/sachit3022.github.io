@@ -25,13 +25,7 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
 
 🧑‍🏫 I teach programming ([CSE 232](https://sachit3022.github.io/teaching/2023-fall)) at Michigan State University. 
 
-⛳  I enjoy [running](https://sachit3022.github.io/other-blog/posts/running/ ) on a rare sunny day in East Lansing, MI. On a gloomy day, I sit down with a sip of coffee ☕ and [Leetcode](https://leetcode.com/u/sachit3022/).  
-
-💡 I love building products. Currently working on an [image editing tool](https://sachit3022.github.io/other-blog/posts/product/).
-
-
-
-
+⛳ I enjoy [running](https://sachit3022.github.io/other-blog/posts/running/) on rare sunny days. When the weather turns gloomy, I settle in with a cup of coffee ☕, pick up a [book](https://www.goodreads.com/user/show/112375149-gaudi-sachit), work through math problems, and occasionally revisit <s>[LeetCode](https://leetcode.com/u/sachit3022/)</s>.
 
 <h3><img src="https://sachit3022.github.io/images/image.png" width="40" height="40">New Posts</h3>
 
@@ -46,7 +40,7 @@ Hello! I am a final-year Masters Student in the [CSE Department](http://www.cse.
 </tr >
 <tr style="border: none;">
     <td style="border: none; "><img src="../images/image-1.png" alt="Image 1" width="75" height="75"></td>
-    <td style="border: none; font-family:Monospace; font-size:1.0em "> <a href="https://sachit3022.github.io/other-blog/posts/running/ " style="color:#36AE7C;">How Running Keeps Me Grounded</a>  </td>
+    <td style="border: none; font-family:Monospace; font-size:1.0em "> <a href="https://sachit3022.github.io/other-blog/posts/masters/" style="color:#36AE7C;">Hitchhiker's Guide to Masters in the US</a>  </td>
 </tr >
 
 </table>
