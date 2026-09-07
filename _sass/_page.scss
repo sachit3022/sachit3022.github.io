@@ -464,9 +464,8 @@
   color: #8a96a8;
 }
 
-.terminal-greeting__system::before {
+.terminal-greeting__system-prompt {
   color: #5f6b7c;
-  content: "+ ";
 }
 
 .terminal-greeting__rule {
@@ -479,6 +478,19 @@
 
 .terminal-greeting__paper {
   color: #f8d49b;
+}
+
+.terminal-greeting__chunk {
+  color: #f8d49b;
+}
+
+.terminal-greeting__thinking {
+  color: #8a96a8;
+  font-style: italic;
+}
+
+.terminal-greeting__interrupt {
+  color: #ff6b6b;
 }
 
 .terminal-greeting__answer {

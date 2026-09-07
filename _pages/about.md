@@ -13,19 +13,23 @@ redirect_from:
   </div>
   <div class="terminal-greeting__body">
     <p class="terminal-greeting__line terminal-greeting__question"><span class="terminal-greeting__prompt">&gt;</span> HOW TO BUILD AGENTS?</p>
-    <p class="terminal-greeting__line terminal-greeting__system">load memory.md</p>
+    <p class="terminal-greeting__line terminal-greeting__system"><span class="terminal-greeting__system-prompt">+</span> load memory.md</p>
     <p class="terminal-greeting__line terminal-greeting__rule">-----</p>
     <p class="terminal-greeting__line">Agents ...</p>
     <p class="terminal-greeting__line">Generalization ...</p>
     <p class="terminal-greeting__line terminal-greeting__rule">-----</p>
-    <p class="terminal-greeting__line terminal-greeting__system">load skill building_agent/SKILL.md</p>
-    <p class="terminal-greeting__line">Start with evals ... &lt;compressed 45 MB at /tmp/agents.txt&gt; ... Hurray!! You have created a Loop, now iterate over it!</p>
-    <p class="terminal-greeting__line terminal-greeting__tool"><span class="terminal-greeting__prompt">&gt;</span> Calling tool RAG("ingredients for better agent")</p>
-    <p class="terminal-greeting__line terminal-greeting__tool"><span class="terminal-greeting__prompt">&gt;</span> Calling tool RAG("How do I do post-training?")</p>
+    <p class="terminal-greeting__line terminal-greeting__system"><span class="terminal-greeting__system-prompt">+</span> load skill building_agent/SKILL.md</p>
+    <p class="terminal-greeting__line">Start with evals ... &lt;compressed 45 MB at /tmp/agents.txt&gt; You have created a loop. Now iterate on it. Hurray! Celebrate your wonderful agent.</p>
+    <p class="terminal-greeting__line terminal-greeting__tool"><span class="terminal-greeting__prompt">&gt;</span> Calling tool RAG("ingredients for a better agent")</p>
+    <p class="terminal-greeting__line terminal-greeting__chunk">&lt;chunk&gt;Celebrate your wonderful agent.&lt;/chunk&gt;</p>
+    <p class="terminal-greeting__line terminal-greeting__thinking">&lt;thinking&gt;💀&lt;/thinking&gt;</p>
+    <p class="terminal-greeting__line terminal-greeting__tool"><span class="terminal-greeting__prompt">&gt;</span> Calling tool RAG("post-training alignment: SFT, reward modeling, preference optimization, evals")</p>
+    <p class="terminal-greeting__line terminal-greeting__answer"><span class="terminal-greeting__prompt">&gt;</span> Complete CS336 Spring 2026 Assignment 5: Alignment.</p>
+    <p class="terminal-greeting__line terminal-greeting__interrupt">^C KeyboardInterrupt</p>
     <p class="terminal-greeting__line terminal-greeting__question terminal-greeting__question--green"><span class="terminal-greeting__prompt">&gt;</span> Do generative models struggle at generalization?</p>
-    <p class="terminal-greeting__line terminal-greeting__system">searching web ... CoInD</p>
-    <p class="terminal-greeting__line terminal-greeting__system">fetching ... <strong>CoInD: Enabling Logical Compositions in Diffusion Models</strong></p>
-    <p class="terminal-greeting__line terminal-greeting__answer">No. Vanilla generative models are trained to model the probability of the training data, but that objective is not theoretically generalizable to arbitrary logical compositions. CoInD shows why standard conditional diffusion models can fail the independence assumptions needed for compositional generation, and proposes enforcing independence between conditional marginals with Fisher divergence so models compose attributes more reliably.<span class="terminal-greeting__cursor"></span></p>
+    <p class="terminal-greeting__line terminal-greeting__system"><span class="terminal-greeting__system-prompt">+</span> searching web ... CoInD</p>
+    <p class="terminal-greeting__line terminal-greeting__system"><span class="terminal-greeting__system-prompt">+</span> fetching ... <strong>CoInD: Enabling Logical Compositions in Diffusion Models</strong></p>
+    <p class="terminal-greeting__line terminal-greeting__answer">No. Vanilla generative models are trained to model the probability distribution of their training data, but that objective is not theoretically guaranteed to generalize to arbitrary logical compositions. CoInD shows why standard conditional diffusion models can fail the independence assumptions needed for compositional generation, and proposes enforcing independence between conditional marginals with Fisher divergence so models compose attributes more reliably.<span class="terminal-greeting__cursor"></span></p>
   </div>
 </div>
 
