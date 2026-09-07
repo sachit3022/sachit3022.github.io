@@ -148,7 +148,7 @@ I’m a Machine Learning Engineer at [Splunk](https://www.splunk.com/), where I 
   </a>
   <a href="https://sachit3022.github.io/other-blog/posts/masters/" style="display: block; overflow: hidden; border: 1px solid #e5e7eb; border-radius: 6px; color: #24292f; text-decoration: none; background: #fff;">
     <img src="https://sachit3022.github.io/other-blog/posts/masters/teaser.png" alt="" style="display: block; width: 100%; height: 150px; object-fit: cover; object-position: center;">
-    <span style="display: block; padding: 11px 12px 12px; font-size: 0.95rem; font-weight: 600; line-height: 1.35;">The Hitchhiker's Guide to a Master's in the US</span>
+    <span style="display: block; padding: 11px 12px 12px; font-size: 0.95rem; font-weight: 600; line-height: 1.35;">The Hitchhiker’s Guide to a Master’s Program</span>
   </a>
 </div>
 
