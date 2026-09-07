@@ -485,12 +485,11 @@
 }
 
 .terminal-greeting__thinking {
-  color: #8a96a8;
-  font-style: italic;
+  font-style: normal;
 }
 
-.terminal-greeting__interrupt {
-  color: #ff6b6b;
+.terminal-greeting .terminal-greeting__interrupt {
+  color: #ff6b6b !important;
 }
 
 .terminal-greeting__answer {

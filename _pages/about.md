@@ -12,7 +12,7 @@ redirect_from:
     <span></span><span></span><span></span>
   </div>
   <div class="terminal-greeting__body">
-    <p class="terminal-greeting__line terminal-greeting__question"><span class="terminal-greeting__prompt">&gt;</span> HOW TO BUILD AGENTS?</p>
+    <p class="terminal-greeting__line terminal-greeting__question terminal-greeting__question--green"><span class="terminal-greeting__prompt">&gt;</span> HOW TO BUILD AGENTS?</p>
     <p class="terminal-greeting__line terminal-greeting__system"><span class="terminal-greeting__system-prompt">+</span> load memory.md</p>
     <p class="terminal-greeting__line terminal-greeting__rule">-----</p>
     <p class="terminal-greeting__line">Agents ...</p>
@@ -22,7 +22,7 @@ redirect_from:
     <p class="terminal-greeting__line">Start with evals ... &lt;compressed 45 MB at /tmp/agents.txt&gt; You have created a loop. Now iterate on it. Hurray! Celebrate your wonderful agent.</p>
     <p class="terminal-greeting__line terminal-greeting__tool"><span class="terminal-greeting__prompt">&gt;</span> Calling tool RAG("ingredients for a better agent")</p>
     <p class="terminal-greeting__line terminal-greeting__chunk">&lt;chunk&gt;Celebrate your wonderful agent.&lt;/chunk&gt;</p>
-    <p class="terminal-greeting__line terminal-greeting__thinking">&lt;thinking&gt;💀&lt;/thinking&gt;</p>
+    <p class="terminal-greeting__line terminal-greeting__system terminal-greeting__thinking">&lt;thinking&gt;💀&lt;/thinking&gt;</p>
     <p class="terminal-greeting__line terminal-greeting__tool"><span class="terminal-greeting__prompt">&gt;</span> Calling tool RAG("post-training alignment: SFT, reward modeling, preference optimization, evals")</p>
     <p class="terminal-greeting__line terminal-greeting__answer"><span class="terminal-greeting__prompt">&gt;</span> Complete CS336 Spring 2026 Assignment 5: Alignment.</p>
     <p class="terminal-greeting__line terminal-greeting__interrupt">^C KeyboardInterrupt</p>
