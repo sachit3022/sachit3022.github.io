@@ -399,3 +399,108 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+.terminal-greeting {
+  margin: 0 0 1.5em;
+  overflow: hidden;
+  color: #d7dde4;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 0.78em;
+  line-height: 1.45;
+  background: #0e1116;
+  border: 1px solid #252b35;
+  border-radius: 6px;
+  box-shadow: 0 14px 34px rgba(14, 17, 22, 0.18);
+}
+
+.terminal-greeting__bar {
+  display: flex;
+  gap: 6px;
+  padding: 10px 12px;
+  background: #171b22;
+  border-bottom: 1px solid #252b35;
+}
+
+.terminal-greeting__bar span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff5f57;
+}
+
+.terminal-greeting__bar span:nth-child(2) {
+  background: #ffbd2e;
+}
+
+.terminal-greeting__bar span:nth-child(3) {
+  background: #28c840;
+}
+
+.terminal-greeting__body {
+  padding: 14px 16px 16px;
+}
+
+.terminal-greeting__line {
+  margin: 0;
+  min-height: 1.45em;
+  white-space: normal;
+}
+
+.terminal-greeting__line + .terminal-greeting__line {
+  margin-top: 5px;
+}
+
+.terminal-greeting__question {
+  color: #7dd3fc;
+  font-weight: bold;
+}
+
+.terminal-greeting__question--green {
+  color: #7ee787;
+}
+
+.terminal-greeting__system {
+  color: #8a96a8;
+}
+
+.terminal-greeting__system::before {
+  color: #5f6b7c;
+  content: "+ ";
+}
+
+.terminal-greeting__rule {
+  color: #5f6b7c;
+}
+
+.terminal-greeting__tool {
+  color: #c9a7ff;
+}
+
+.terminal-greeting__paper {
+  color: #f8d49b;
+}
+
+.terminal-greeting__answer {
+  color: #d7dde4;
+}
+
+.terminal-greeting__prompt {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.terminal-greeting__cursor {
+  display: inline-block;
+  width: 0.6em;
+  height: 1.1em;
+  margin-left: 4px;
+  vertical-align: -0.18em;
+  background: #d7dde4;
+  animation: terminal-cursor-blink 1s steps(1, end) infinite;
+}
+
+@keyframes terminal-cursor-blink {
+  50% {
+    opacity: 0;
+  }
+}
