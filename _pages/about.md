@@ -12,7 +12,7 @@ redirect_from:
     <span></span><span></span><span></span>
   </div>
   <div class="terminal-greeting__body">
-    <p class="terminal-greeting__line terminal-greeting__question terminal-greeting__question--green"><span class="terminal-greeting__prompt">&gt;</span> HOW TO BUILD AGENTS?</p>
+    <p class="terminal-greeting__line terminal-greeting__question"><span class="terminal-greeting__prompt">&gt;</span> HOW TO BUILD AGENTS?</p>
     <p class="terminal-greeting__line terminal-greeting__system">load memory.md</p>
     <p class="terminal-greeting__line terminal-greeting__rule">-----</p>
     <p class="terminal-greeting__line">Agents ...</p>
@@ -35,9 +35,22 @@ redirect_from:
     if (!terminal) return;
 
     var lines = Array.prototype.slice.call(terminal.querySelectorAll(".terminal-greeting__line"));
+    var originalLines = lines.map(function (line) {
+      return line.innerHTML;
+    });
     var lineDelay = 120;
-    var charDelay = 18;
+    var charDelay = 10;
     var cursor = terminal.querySelector(".terminal-greeting__cursor");
+
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    function restoreTerminal() {
+      lines.forEach(function (line, index) {
+        line.innerHTML = originalLines[index];
+        line.style.visibility = "";
+      });
+      terminal.classList.remove("terminal-greeting--streaming");
+    }
 
     if (cursor) {
       cursor.parentNode.removeChild(cursor);
@@ -50,7 +63,7 @@ redirect_from:
     lines.forEach(function (line) {
       line.dataset.terminalHtml = line.innerHTML;
       line.innerHTML = "";
-      line.style.visibility = "hidden";
+      line.style.visibility = "visible";
     });
 
     function sleep(ms) {
@@ -104,7 +117,7 @@ redirect_from:
       terminal.classList.remove("terminal-greeting--streaming");
     }
 
-    streamTerminal();
+    streamTerminal().catch(restoreTerminal);
   }());
 </script>
 
