@@ -480,11 +480,12 @@
   color: #f8d49b;
 }
 
-.terminal-greeting__chunk {
-  color: #f8d49b;
+.terminal-greeting .terminal-greeting__chunk {
+  color: #ffffff !important;
 }
 
-.terminal-greeting__thinking {
+.terminal-greeting .terminal-greeting__thinking {
+  color: #f8d49b;
   font-style: normal;
 }
 
